@@ -161,7 +161,7 @@
   font-weight: 700;
   font-family: abril-fatface;
   line-height: 1.2;
-  margin: 60px 0 0;
+  margin: 64px 0 0;
 }
 
 .u-section-3 .u-btn-1 {
@@ -172,7 +172,7 @@
   font-size: 1.875rem;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 52px auto 60px;
+  margin: 53px auto 60px;
   padding: 15px 62px 15px 60px;
 }
 
@@ -493,13 +493,13 @@
 .u-section-5 .u-text-2 {
   font-weight: 700;
   font-family: Roboto, sans-serif;
-  margin: 7px 0 0;
+  margin: 3px 0 0;
 }
 
 .u-section-5 .u-shape-1 {
   width: 126px;
   height: 126px;
-  margin: -61px auto 9px;
+  margin: -57px auto 9px;
 }
 
 @media (max-width: 1199px) {
