@@ -70,10 +70,7 @@
   }
 } .u-section-2 {
   background-image: none;
-}
-
-.u-section-2 .u-sheet-1 {
-  min-height: 597px;
+  min-height: 565px;
 }
 
 .u-section-2 .u-image-1 {
@@ -82,8 +79,8 @@
 
 .u-section-2 .u-group-1 {
   width: 1212px;
-  min-height: 228px;
-  margin: 369px -36px 0;
+  min-height: 195px;
+  margin: 369px auto 0;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -106,14 +103,18 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-2 {
+    min-height: 559px;
+  }
+
   .u-section-2 .u-image-1 {
     width: 1014px;
   }
 
   .u-section-2 .u-group-1 {
     width: 1014px;
-    margin-left: -37px;
-    margin-right: -37px;
+    min-height: 189px;
+    margin-top: 370px;
   }
 
   .u-section-2 .u-text-1 {
@@ -133,9 +134,6 @@
 
   .u-section-2 .u-group-1 {
     width: 756px;
-    min-height: 210px;
-    margin-right: 0;
-    margin-left: 0;
   }
 
   .u-section-2 .u-text-1 {
@@ -160,16 +158,20 @@
   }
 
   .u-section-2 .u-text-1 {
-    width: auto;
+    width: 506px;
     margin-top: 0;
   }
 
   .u-section-2 .u-btn-1 {
-    margin-top: 0;
+    margin-top: -39px;
   }
 }
 
 @media (max-width: 575px) {
+   .u-section-2 {
+    min-height: 558px;
+  }
+
   .u-section-2 .u-image-1 {
     height: 369px;
     width: 440px;
@@ -180,13 +182,6 @@
     margin: 0 -50px;
   }
 
-  .u-section-2 .u-group-1 {
-    min-height: 189px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-2 .u-text-1 {
     margin-top: 24px;
   }
@@ -194,13 +189,13 @@
   .u-section-2 .u-btn-1 {
     margin-top: 24px;
   }
-}.u-section-3 .u-sheet-1 {
-  min-height: 152px;
+} .u-section-3 {
+  min-height: 166px;
 }
 
 .u-section-3 .u-text-1 {
   font-size: 1.5rem;
-  margin: 40px 99px 40px -35px;
+  margin: 40px calc(((100% - 1200px) / 2)) 60px calc(((100% - 1200px) / 2) + -36px);
 }
 
 @media (max-width: 1199px) {
@@ -218,18 +213,13 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 166px;
-  }
-
   .u-section-3 .u-text-1 {
-    margin: 11px 0;
+    margin: 11px calc(((100% - 767px) / 2));
   }
 }
 
 @media (max-width: 575px) {
   .u-section-3 .u-text-1 {
-    margin-top: 10px;
-    margin-bottom: 12px;
+    margin: 10px calc(((100% - 575px) / 2)) 12px;
   }
 }
