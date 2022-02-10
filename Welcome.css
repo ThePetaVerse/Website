@@ -81,9 +81,9 @@
 }
 
 .u-section-2 .u-group-1 {
-  width: 313px;
+  width: 1212px;
   min-height: 228px;
-  margin: 369px auto 0 -36px;
+  margin: 369px -36px 0;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -92,7 +92,8 @@
 
 .u-section-2 .u-text-1 {
   font-weight: 700;
-  margin: 8px 0 0;
+  width: 497px;
+  margin: 20px auto 0;
 }
 
 .u-section-2 .u-btn-1 {
@@ -100,7 +101,7 @@
   font-weight: 700;
   font-size: 1.25rem;
   background-image: none;
-  margin: 11px auto 0 0;
+  margin: -14px auto 0;
   padding: 23px 102px 24px;
 }
 
@@ -110,7 +111,18 @@
   }
 
   .u-section-2 .u-group-1 {
+    width: 1014px;
     margin-left: -37px;
+    margin-right: -37px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: 507px;
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 0;
   }
 }
 
@@ -120,7 +132,19 @@
   }
 
   .u-section-2 .u-group-1 {
-    margin-left: -36px;
+    width: 756px;
+    min-height: 210px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: 494px;
+    margin-top: 11px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: -16px;
   }
 }
 
@@ -130,8 +154,45 @@
   }
 
   .u-section-2 .u-group-1 {
-    width: 277px;
-    margin-left: 0;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-image-1 {
+    height: 369px;
+    width: 440px;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    top: auto;
+    margin: 0 -50px;
+  }
+
+  .u-section-2 .u-group-1 {
+    min-height: 189px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 24px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 24px;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 152px;
@@ -163,5 +224,12 @@
 
   .u-section-3 .u-text-1 {
     margin: 11px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-text-1 {
+    margin-top: 10px;
+    margin-bottom: 12px;
   }
 }
