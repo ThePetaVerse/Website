@@ -156,9 +156,14 @@
   }
 
   .u-section-2 .u-group-1 {
+    margin-top: 0;
+    margin-bottom: 43px;
     min-height: 141px;
-    width: 316px;
-    margin: 16px auto 27px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .u-section-2 .u-text-1 {
@@ -166,7 +171,8 @@
   }
 
   .u-section-2 .u-btn-1 {
-    margin-top: -7px;
+    margin-top: 19px;
+    margin-bottom: -42px;
   }
 } .u-section-3 {
   min-height: 80px;
