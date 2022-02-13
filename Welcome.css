@@ -36,44 +36,41 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-image-1 {
-    margin-left: calc(((100% - 1199px) / 2) + 10px);
+    margin-left: calc(((100% - 1199px) / 2) + 58px);
   }
 
   .u-section-1 .u-social-icons-1 {
-    width: 127px;
+    margin-right: calc(((100% - 1199px) / 2) + 74px);
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-image-1 {
-    margin-left: calc(((100% - 991px) / 2) + -33px);
+    margin-left: calc(((100% - 991px) / 2) + 123px);
   }
 
   .u-section-1 .u-social-icons-1 {
-    width: 126px;
-    margin-right: calc(((100% - 991px) / 2) + -31px);
+    margin-right: calc(((100% - 991px) / 2) + 117px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-image-1 {
-    margin-left: calc(((100% - 767px) / 2) + -33px);
+    margin-left: calc(((100% - 767px) / 2) + 60px);
   }
 
   .u-section-1 .u-social-icons-1 {
-    margin-right: calc(((100% - 1200px) / 2) + 168px);
+    margin-right: calc(((100% - 767px) / 2) + 51px);
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-image-1 {
-    margin-left: calc(((100% - 1200px) / 2) + 279px);
+    margin-left: calc(((100% - 575px) / 2) + 102px);
   }
 
   .u-section-1 .u-social-icons-1 {
-    margin-top: -55px;
-    margin-right: calc(((100% - 1200px) / 2) + 279px);
-    margin-bottom: 40px;
+    margin-right: calc(((100% - 575px) / 2) + 113px);
   }
 } .u-section-2 {
   background-image: none;
@@ -154,9 +151,28 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-2 {
+    min-height: 834px;
+  }
+
+  .u-section-2 .u-group-1 {
+    margin-top: 0;
+    margin-bottom: 43px;
+    min-height: 141px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .u-section-2 .u-text-1 {
     width: 294px;
-    margin-top: 0;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 19px;
+    margin-bottom: -42px;
   }
 } .u-section-3 {
   min-height: 80px;
@@ -184,5 +200,16 @@
 @media (max-width: 767px) {
   .u-section-3 .u-text-1 {
     margin-top: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-3 {
+    min-height: 168px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-top: 28px;
+    margin-bottom: 54px;
   }
 }
