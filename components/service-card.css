@@ -33,15 +33,9 @@
   font-size: 1.25rem;
   text-align: center;
 }
-
 @media(max-width: 991px) {
   .service-card-container {
     width: 100%;
     padding-bottom: var(--dl-space-space-doubleunit);
-  }
-}
-@media(max-width: 479px) {
-  .rootClassName {
-    height: 100%;
   }
 }

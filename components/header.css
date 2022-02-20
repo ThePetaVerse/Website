@@ -221,7 +221,10 @@
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .rootClassName {
-  margin-bottom: 0px;
+  background-color: #292d34;
+}
+.rootClassName1 {
+  background-color: #D9D9D9;
 }
 @media(max-width: 991px) {
   .header-header {
@@ -277,5 +280,10 @@
   }
   .rootClassName {
     margin-bottom: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .rootClassName1 {
+    background-color: #292d34;
   }
 }
