@@ -528,6 +528,7 @@
   color: var(--dl-color-secondary-500);
   align-self: center;
 }
+
 @media(max-width: 991px) {
   .footer-container01 {
     align-items: center;
@@ -559,6 +560,11 @@
   }
   .footer-container10 {
     align-items: center;
+  }
+}
+@media(max-width: 479px) {
+  .rootClassName {
+    height: 100%;
   }
 }
 
