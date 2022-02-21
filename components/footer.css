@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #292d34;
+  background-color: #ffffff;
 }
 .footer-container1 {
   width: 100%;
@@ -17,15 +17,15 @@
   justify-content: center;
 }
 .footer-container2 {
-  width: 319px;
+  width: 137px;
   display: flex;
   align-self: center;
   align-items: center;
   flex-direction: column;
 }
 .footer-image {
-  width: 319px;
-  height: 194px;
+  width: 272px;
+  height: 158px;
   object-fit: cover;
 }
 @media(max-width: 991px) {
