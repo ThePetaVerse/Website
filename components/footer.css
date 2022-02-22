@@ -28,6 +28,9 @@
   height: 158px;
   object-fit: cover;
 }
+.rootClassName {
+  height: 100%;
+}
 @media(max-width: 991px) {
   .footer-container1 {
     align-items: center;
