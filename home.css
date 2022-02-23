@@ -233,11 +233,6 @@
     align-self: center;
   }
 }
-@media(max-width: 767px) {
-  .footer-image {
-    align-self: center;
-  }
-}
 @media(max-width: 479px) {
   .footer-container {
     align-items: center;
@@ -255,7 +250,7 @@
   height: auto;
   display: flex;
   min-height: 100vh;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 .home-hero {
@@ -284,7 +279,7 @@
 }
 .home-container01 {
   width: 100%;
-  height: 450px;
+  height: 100%;
   display: flex;
   max-width: 100%;
   min-width: 100%;
@@ -319,9 +314,8 @@
   display: flex;
   padding: 48px;
   position: relative;
-  max-width: 100%;
-  min-width: 100%;
-  align-self: center;
+  max-width: 1400px;
+  align-self: flex-start;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   min-height: 80vh;
   align-items: flex-start;
@@ -364,7 +358,18 @@
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
+.home-text06 {
+  color: #334155;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text07 {
+  color: #334155;
+}
 .home-text09 {
+  color: #334155;
+}
+.home-text10 {
   color: var(--dl-color-gray-700);
   text-align: center;
 }
@@ -393,14 +398,25 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
 }
-.home-text10 {
+.home-text11 {
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text14 {
+.home-text12 {
+  color: #334155;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text13 {
+  color: #334155;
+}
+.home-text15 {
+  color: #334155;
+}
+.home-text16 {
   color: var(--dl-color-gray-700);
   text-align: center;
 }
@@ -429,14 +445,25 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
 }
-.home-text15 {
+.home-text17 {
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
+.home-text18 {
+  color: #334155;
+  font-style: normal;
+  font-weight: 500;
+}
 .home-text19 {
+  color: #334155;
+}
+.home-text21 {
+  color: #334155;
+}
+.home-text22 {
   color: var(--dl-color-gray-700);
   text-align: center;
 }
@@ -467,13 +494,13 @@
   align-items: flex-start;
   justify-content: center;
 }
-.home-text20 {
+.home-text23 {
   color: var(--dl-color-secondary-400);
   text-align: center;
   line-height: 2.5rem;
   background-color: #ffffff;
 }
-.home-text21 {
+.home-text24 {
   font-weight: 700;
   white-space: normal;
 }
@@ -485,7 +512,7 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.home-text22 {
+.home-text25 {
   color: var(--dl-color-secondary-700);
   margin-top: var(--dl-space-space-unit);
   text-align: center;
@@ -496,13 +523,11 @@
   height: 100%;
   display: flex;
   padding: 48px;
-  max-width: 100%;
-  min-width: 100%;
-  align-self: center;
+  max-width: 1400px;
   min-height: 80vh;
   align-items: center;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   background-color: var(--dl-color-pimary-900);
 }
 .home-image3 {
@@ -511,24 +536,24 @@
 }
 .home-container09 {
   width: 825px;
-  height: 492px;
+  height: 460px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text26 {
+.home-text29 {
   color: var(--dl-color-secondary-400);
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text27 {
+.home-text30 {
   color: var(--dl-color-secondary-700);
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   margin-bottom: var(--dl-space-space-twoandhalf);
 }
-.home-text28 {
+.home-text31 {
   display: inline;
   font-weight: 400;
   white-space: normal;
@@ -586,7 +611,7 @@
     padding-right: var(--dl-space-space-doubleunit);
     background-color: #ffffff;
   }
-  .home-text20 {
+  .home-text23 {
     text-align: center;
   }
   .home-hero2 {
@@ -669,10 +694,10 @@
   .home-container09 {
     width: 100%;
   }
-  .home-text26 {
+  .home-text29 {
     padding-bottom: 0px;
   }
-  .home-text27 {
+  .home-text30 {
     margin-top: var(--dl-space-space-unit);
     margin-bottom: auto;
   }
@@ -708,9 +733,10 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
+    justify-content: center;
   }
   .home-container03 {
-    width: 413px;
+    width: 100%;
     height: 843px;
     position: relative;
     justify-content: center;
@@ -784,9 +810,8 @@
   .home-container09 {
     width: 100%;
     height: 646px;
-    margin-left: 0px;
   }
-  .home-text26 {
+  .home-text29 {
     margin-bottom: 0px;
   }
 }
