@@ -708,10 +708,9 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
-    justify-content: center;
   }
   .home-container03 {
-    width: 100%;
+    width: 413px;
     height: 843px;
     position: relative;
     justify-content: center;
