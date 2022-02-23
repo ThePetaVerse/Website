@@ -314,7 +314,7 @@
   display: flex;
   padding: 48px;
   position: relative;
-  max-width: 1400px;
+  max-width: 100%;
   min-width: 100%;
   align-self: flex-start;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
@@ -524,7 +524,7 @@
   height: 100%;
   display: flex;
   padding: 48px;
-  max-width: 1400px;
+  max-width: 100%;
   min-width: 100%;
   min-height: 80vh;
   align-items: center;
@@ -812,6 +812,8 @@
     height: 100%;
     max-width: 100%;
     min-width: 100%;
+    align-self: center;
+    align-items: center;
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
