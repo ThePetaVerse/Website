@@ -806,7 +806,8 @@
   }
   .home-hero2 {
     width: 100%;
-    height: 1181px;
+    height: 1209px;
+    max-width: 100%;
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -818,13 +819,19 @@
   }
   .home-container09 {
     width: 100%;
-    height: 646px;
+    height: 622px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
   }
   .home-text29 {
+    width: 100%;
+    height: 100%;
     margin-bottom: 0px;
   }
   .home-text30 {
     width: 100%;
+    height: 100%;
     align-self: center;
   }
 }
