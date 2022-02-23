@@ -298,11 +298,6 @@
     align-self: center;
   }
 }
-@media(max-width: 767px) {
-  .footer-image {
-    align-self: center;
-  }
-}
 @media(max-width: 479px) {
   .footer-container {
     align-items: center;
