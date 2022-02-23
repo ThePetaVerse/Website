@@ -614,6 +614,9 @@
   .home-text23 {
     text-align: center;
   }
+  .home-container08 {
+    width: 684px;
+  }
   .home-hero2 {
     width: 100%;
     flex-direction: column;
@@ -628,14 +631,18 @@
     width: 100%;
   }
   .home-hero1 {
+    max-width: 100%;
+    align-self: center;
+    align-items: center;
     padding-left: 32px;
     padding-right: 32px;
   }
   .home-container03 {
-    width: 731px;
+    width: 703px;
+    align-items: center;
   }
   .home-container04 {
-    width: 723px;
+    width: 697px;
     position: relative;
     margin-right: 0px;
   }
@@ -644,10 +651,10 @@
     border-width: 1px;
   }
   .home-image {
-    margin-left: 95px;
+    margin-left: 80px;
   }
   .home-container05 {
-    width: 723px;
+    width: 697px;
     position: relative;
     margin-right: 0px;
   }
@@ -656,10 +663,10 @@
     border-width: 1px;
   }
   .home-image1 {
-    margin-left: 95px;
+    margin-left: 80px;
   }
   .home-container06 {
-    width: 723px;
+    width: 697px;
     position: relative;
     margin-right: 0px;
   }
@@ -668,7 +675,7 @@
     border-width: 1px;
   }
   .home-image2 {
-    margin-left: 95px;
+    margin-left: 80px;
   }
   .home-section2 {
     width: 100%;
@@ -693,6 +700,7 @@
   }
   .home-container09 {
     width: 100%;
+    height: 465px;
   }
   .home-text29 {
     padding-bottom: 0px;
@@ -727,6 +735,7 @@
   }
   .home-hero1 {
     height: 902px;
+    max-width: 100%;
     align-self: center;
     align-items: center;
     padding-top: 32px;
