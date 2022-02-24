@@ -522,6 +522,7 @@
   width: 100%;
   height: 711px;
   display: flex;
+  position: relative;
   max-width: 100%;
   min-width: 100%;
   align-self: center;
@@ -546,14 +547,19 @@
   object-fit: cover;
 }
 .home-text29 {
+  top: 403px;
   color: var(--dl-color-secondary-400);
+  right: auto;
+  position: absolute;
   text-align: center;
 }
 .home-text30 {
+  left: auto;
   color: var(--dl-color-secondary-700);
-  margin-top: var(--dl-space-space-unit);
+  width: 90%;
+  bottom: 75px;
+  position: absolute;
   text-align: center;
-  margin-bottom: var(--dl-space-space-twoandhalf);
 }
 .home-text31 {
   display: inline;
@@ -684,7 +690,7 @@
   }
   .home-kennels {
     width: 100%;
-    height: 815px;
+    height: 915px;
     position: relative;
     padding-left: 32px;
     padding-right: 32px;
@@ -718,6 +724,7 @@
   .home-text01 {
     width: 100%;
     height: 100%;
+    margin-bottom: 0px;
   }
   .home-team {
     height: 100%;
@@ -796,7 +803,9 @@
     padding-right: 0px;
   }
   .home-text25 {
-    width: 90%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
   }
   .home-kennels {
     width: 100%;
@@ -805,6 +814,7 @@
     min-width: auto;
     align-self: center;
     margin-top: 0px;
+    max-height: auto;
     min-height: auto;
     align-items: center;
     padding-top: 21px;
@@ -813,13 +823,16 @@
     padding-bottom: 29px;
   }
   .home-text29 {
+    top: 411px;
+    right: -58px;
     width: 100%;
     height: 59px;
-    margin-bottom: 0px;
+    position: static;
   }
   .home-text30 {
-    width: 90%;
+    width: 100%;
     height: 100%;
+    position: static;
     align-self: center;
   }
 }
