@@ -18,6 +18,11 @@
   align-self: center;
   background-color: #ffffff;
 }
+.rootClassName1 {
+  height: 100%;
+  align-self: center;
+  background-color: #ffffff;
+}
 @media(max-width: 991px) {
   .footer-image {
     align-self: center;
