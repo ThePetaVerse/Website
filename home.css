@@ -731,7 +731,7 @@
     height: 425px;
   }
   .home-welcome {
-    height: 843px;
+    height: 881px;
     padding-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -817,7 +817,7 @@
     display: none;
   }
   .home-tech {
-    height: 896px;
+    height: 936px;
     padding-bottom: 0px;
   }
   .home-tech-main {
@@ -827,7 +827,7 @@
   }
   .home-kennels {
     width: 100%;
-    height: 100%;
+    height: 1275px;
     max-width: 100%;
     min-width: 100%;
     align-self: center;
@@ -836,7 +836,7 @@
     padding-top: 21px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
   .home-kennels-m-s-g {
     width: 85%;
