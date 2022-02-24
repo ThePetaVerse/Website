@@ -8,8 +8,9 @@
   background-color: #ffffff;
 }
 .footer-image {
-  width: 366px;
-  height: 223px;
+  width: 282px;
+  height: 166px;
+  align-self: center;
   object-fit: cover;
 }
 .rootClassName {
@@ -17,13 +18,19 @@
   align-self: center;
   background-color: #ffffff;
 }
+@media(max-width: 991px) {
+  .footer-image {
+    align-self: center;
+  }
+}
 @media(max-width: 479px) {
   .footer-container {
     align-items: center;
     justify-content: center;
   }
   .footer-image {
-    width: 187px;
-    height: 115px;
+    width: 231px;
+    height: 136px;
+    align-self: center;
   }
 }
