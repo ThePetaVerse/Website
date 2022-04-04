@@ -230,6 +230,7 @@
 }
 .kennels-button {
   margin-left: 15px;
+  background-color: var(--dl-color-pimary-500);
 }
 .kennels-kennel-main-picture {
   width: 100%;

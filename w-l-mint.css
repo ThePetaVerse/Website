@@ -229,6 +229,9 @@
   margin-bottom: 15px;
   justify-content: center;
 }
+.w-l-mint-whitelist-connect-wallet {
+  background-color: var(--dl-color-pimary-500);
+}
 .w-l-mint-whitelist-body {
   width: 100%;
   text-align: center;
@@ -260,6 +263,7 @@
 }
 .w-l-mint-whitelist-mint-now {
   width: 113px;
+  background-color: var(--dl-color-pimary-500);
 }
 .w-l-mint-footer {
   width: 100%;

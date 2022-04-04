@@ -229,6 +229,9 @@
   margin-bottom: 15px;
   justify-content: center;
 }
+.mint-mint-connect-wallet {
+  background-color: var(--dl-color-pimary-500);
+}
 .mint-mint-body {
   width: 100%;
   text-align: center;
@@ -258,8 +261,18 @@
   margin-bottom: 15px;
   justify-content: center;
 }
+.mint-textinput {
+  width: 22px;
+  height: 24px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
 .mint-mint-now {
   width: 116px;
+  margin-left: 15px;
+  background-color: var(--dl-color-pimary-500);
 }
 .mint-footer {
   width: 100%;
