@@ -1,72 +1,3 @@
-.navigation-links-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.navigation-links-text {
-  color: #000000;
-}
-.navigation-links-text1 {
-  color: #000000;
-  margin-left: 32px;
-}
-.navigation-links-text2 {
-  color: #000000;
-  margin-left: 32px;
-}
-.navigation-links-text3 {
-  color: #000000;
-  margin-left: 32px;
-}
-.navigation-links-text4 {
-  color: #000000;
-  margin-left: 32px;
-}
-
-
-
-
-
-
-
-
-
-
-.navigation-links-root-class-name10 {
-  align-self: flex-end;
-}
-
-
-
-
-
-@media(max-width: 767px) {
-  .navigation-links-nav {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .navigation-links-text {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text4 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-}
-
 .home-container {
   width: 100%;
   height: auto;
@@ -89,12 +20,16 @@
   padding-bottom: 1.5rem;
   justify-content: space-between;
 }
+.home-navlink {
+  display: contents;
+}
 .home-image {
   width: 213px;
   height: 142px;
   align-self: center;
   object-fit: cover;
   list-style-type: disc;
+  text-decoration: none;
   list-style-image: none;
   list-style-position: outside;
 }
@@ -126,12 +61,12 @@
   color: #000000;
   text-decoration: none;
 }
-.home-navlink {
+.home-navlink1 {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
 }
-.home-navlink1 {
+.home-text {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
@@ -193,6 +128,31 @@
   flex-direction: column;
   justify-content: center;
 }
+.home-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-text01 {
+  color: #000000;
+}
+.home-text02 {
+  color: #000000;
+  margin-left: 32px;
+}
+.home-text03 {
+  color: #000000;
+  margin-left: 32px;
+}
+.home-text04 {
+  color: #000000;
+  margin-left: 32px;
+}
+.home-text05 {
+  color: #000000;
+  margin-left: 32px;
+}
 .home-main-picture {
   flex: 0 0 auto;
   width: 100%;
@@ -211,8 +171,6 @@
   display: flex;
   position: relative;
   align-items: center;
-  padding-left: var(--dl-space-space-doubleunit);
-  padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
   padding-bottom: 2px;
   background-color: #ffffff;
@@ -224,52 +182,43 @@
   max-width: 100%;
   min-width: 100%;
   align-items: center;
+  padding-left: 45px;
+  padding-right: 45px;
   flex-direction: column;
 }
 .home-welcome-heading {
   color: var(--dl-color-secondary-400);
-  margin-top: var(--dl-space-space-unit);
   text-align: center;
-  margin-bottom: 0px;
 }
 .home-welcome-text {
   color: var(--dl-color-secondary-700);
-  width: 90%;
-  margin-top: var(--dl-space-space-unit);
+  width: 100%;
+  height: 100%;
   text-align: center;
-  margin-bottom: var(--dl-space-space-twoandhalf);
 }
-.home-container2 {
+.home-mint {
   flex: 0 0 auto;
   width: 100%;
-  display: flex;
-  align-items: flex-start;
-  border-color: var(--dl-color-pimary-300);
-  border-style: dashed;
-  border-width: 2px;
-  background-color: var(--dl-color-pimary-300);
-}
-.home-container3 {
-  flex: 0 0 auto;
-  width: 100%;
+  height: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  background-color: var(--dl-color-pimary-300);
 }
-.home-text03 {
+.home-text09 {
   width: 100%;
   height: 100%;
   text-align: center;
 }
-.home-text05 {
+.home-text11 {
   text-align: center;
 }
-.home-text06 {
+.home-text12 {
   width: 100%;
   height: 100%;
   text-align: center;
 }
-.home-container4 {
+.home-container2 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -280,6 +229,7 @@
 }
 .home-navlink3 {
   width: 123px;
+  margin-right: 20px;
   text-decoration: none;
   background-color: var(--dl-color-pimary-500);
 }
@@ -290,7 +240,7 @@
 }
 .home-team {
   width: 100%;
-  height: 619px;
+  height: 100%;
   display: flex;
   padding: 48px;
   position: relative;
@@ -300,83 +250,32 @@
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   min-height: 100%;
   align-items: center;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   justify-content: center;
   background-color: var(--dl-color-pimary-900);
 }
 .home-team-boundary {
   flex: 0 0 auto;
-  width: 830px;
-  height: 508px;
+  width: 100%;
+  height: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 .home-s-m {
   flex: 0 0 auto;
   width: 100%;
+  height: 100%;
   display: flex;
   position: relative;
   margin-top: 15px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .home-feature-card {
   width: 359px;
-  height: 231px;
-  display: flex;
-  padding: 32px;
-  box-shadow: 0 10px 15px -3px rgba(0.1,0.1,0.1,0.1),0 4px 6px -2px rgba(0.1,0.1,0.1,0.05);
-  align-items: center;
-  border-radius: var(--dl-radius-radius-radius50);
-  flex-direction: column;
-  background-color: var(--dl-color-gray-white);
-}
-.home-text10 {
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text11 {
-  color: #334155;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-text12 {
-  color: #334155;
-}
-.home-text14 {
-  color: #334155;
-}
-.home-text15 {
-  color: var(--dl-color-gray-700);
-  text-align: center;
-}
-.home-image2 {
-  top: 0px;
-  right: 0px;
-  width: 225px;
-  height: 233px;
-  position: absolute;
-  object-fit: cover;
-  margin-left: 239px;
-}
-.home-dr-doof {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  margin-top: 15px;
-  align-items: center;
-  margin-bottom: 15px;
-  justify-content: flex-start;
-}
-.home-feature-card1 {
-  width: 359px;
-  height: 231px;
+  height: 100%;
   display: flex;
   padding: 32px;
   box-shadow: 0 10px 15px -3px rgba(0.1,0.1,0.1,0.1),0 4px 6px -2px rgba(0.1,0.1,0.1,0.05);
@@ -386,6 +285,8 @@
   background-color: var(--dl-color-gray-white);
 }
 .home-text16 {
+  width: 100%;
+  height: 100%;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
@@ -405,76 +306,119 @@
 }
 .home-text21 {
   color: var(--dl-color-gray-700);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.home-image2 {
+  width: 225px;
+  height: 233px;
+  object-fit: cover;
+  margin-left: 230px;
+}
+.home-dr-doof {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.home-feature-card1 {
+  width: 359px;
+  height: 231px;
+  display: flex;
+  padding: 32px;
+  box-shadow: 0 10px 15px -3px rgba(0.1,0.1,0.1,0.1),0 4px 6px -2px rgba(0.1,0.1,0.1,0.05);
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius50);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.home-text22 {
+  width: 100%;
+  height: 100%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text23 {
+  color: #334155;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text24 {
+  color: #334155;
+}
+.home-text26 {
+  color: #334155;
+}
+.home-text27 {
+  color: var(--dl-color-gray-700);
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 .home-image3 {
-  top: 0px;
-  right: 0px;
   width: 225px;
   height: 233px;
-  position: absolute;
   object-fit: cover;
-  margin-left: 239px;
+  margin-left: 230px;
 }
 .home-tech {
   width: 100%;
-  height: 592px;
+  height: 100%;
   display: flex;
   position: relative;
   align-self: center;
   align-items: center;
-  padding-top: 41px;
+  padding-top: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
-.home-tech-heading {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-.home-text22 {
+.home-text28 {
   color: var(--dl-color-secondary-400);
+  width: 100%;
+  height: 55px;
   text-align: center;
   line-height: 2.5rem;
   background-color: #ffffff;
 }
-.home-text23 {
+.home-text29 {
   font-weight: 700;
   white-space: normal;
 }
-.home-tech-main {
-  width: 66%;
-  height: 415px;
-  display: flex;
-  align-items: center;
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
-  flex-direction: column;
-}
-.home-text24 {
+.home-text30 {
   color: var(--dl-color-secondary-700);
-  margin-top: var(--dl-space-space-unit);
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
   text-align: center;
-  margin-bottom: var(--dl-space-space-twoandhalf);
+  margin-bottom: 0px;
 }
 .home-kennels-game {
   width: 100%;
-  height: 711px;
+  height: 100%;
   display: flex;
   position: relative;
   max-width: 100%;
   min-width: 100%;
   align-self: center;
-  min-height: 80vh;
+  min-height: 100%;
   align-items: center;
-  padding-top: 29px;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-top: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
   flex-direction: column;
+  padding-bottom: 15px;
   justify-content: flex-start;
   background-color: var(--dl-color-pimary-900);
 }
@@ -482,7 +426,8 @@
   width: 100%;
   height: 345px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .home-picture {
   width: 100%;
@@ -490,103 +435,88 @@
   object-fit: cover;
 }
 .home-kennels-game-heading {
-  top: 403px;
   color: var(--dl-color-secondary-400);
-  right: auto;
-  position: absolute;
   text-align: center;
 }
 .home-kennels-game-text {
-  left: auto;
   color: var(--dl-color-secondary-700);
-  width: 80%;
-  bottom: 50px;
-  position: absolute;
+  height: 100%;
   text-align: center;
 }
-.home-text28 {
+.home-text34 {
   display: inline;
   font-weight: 400;
   white-space: normal;
 }
 .home-roadmap {
   width: 100%;
-  height: 1044px;
+  height: 100%;
   display: flex;
   position: relative;
   align-self: center;
   align-items: center;
-  padding-top: 41px;
+  padding-top: 15px;
   flex-direction: column;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .home-roadmap-container {
   width: 100%;
-  height: 1004px;
+  height: 100%;
   display: flex;
   align-self: center;
   align-items: center;
   flex-direction: column;
 }
-.home-roadmap-heading {
-  flex: 0 0 auto;
-  width: 100%;
-  height: var(--dl-size-size-tripleunit);
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-.home-text29 {
+.home-text35 {
   color: var(--dl-color-secondary-400);
+  width: 100%;
+  height: 100%;
   text-align: center;
   line-height: 2.5rem;
   background-color: #ffffff;
 }
-.home-text30 {
+.home-text36 {
   font-weight: 700;
   white-space: normal;
 }
 .home-roadmap-main {
   width: 100%;
-  height: 951px;
+  height: 100%;
   display: flex;
   align-self: center;
   align-items: center;
-  padding-top: 14px;
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
   flex-direction: column;
-  padding-bottom: 18px;
   justify-content: flex-start;
 }
-.home-text31 {
+.home-text37 {
   color: var(--dl-color-secondary-700);
   width: 100%;
   height: 100%;
   align-self: flex-start;
-  margin-top: var(--dl-space-space-unit);
+  margin-top: 0px;
   text-align: center;
-  margin-bottom: var(--dl-space-space-twoandhalf);
+  margin-bottom: 0px;
 }
-.home-text32 {
+.home-text38 {
   font-weight: 700;
 }
-.home-text33 {
+.home-text39 {
   font-weight: 700;
 }
-.home-text34 {
+.home-text40 {
   font-weight: 700;
 }
-.home-text35 {
+.home-text41 {
   font-weight: 700;
 }
-.home-text42 {
-  font-weight: 700;
-}
-.home-text47 {
+.home-text48 {
   font-weight: 700;
 }
 .home-text53 {
+  font-weight: 700;
+}
+.home-text59 {
   font-weight: 700;
 }
 .home-footer {
@@ -598,11 +528,15 @@
   justify-content: center;
   background-color: #ffffff;
 }
+.home-navlink5 {
+  display: contents;
+}
 .home-image4 {
   width: 282px;
   height: 166px;
   align-self: center;
   object-fit: cover;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .home-header {
@@ -614,12 +548,19 @@
     height: 140px;
   }
   .home-welcome {
-    height: 559px;
+    height: 100%;
   }
   .home-welcome-container {
-    height: 539px;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
     margin-bottom: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
+  }
+  .home-welcome-heading {
+    width: 100%;
+    height: 61px;
+    align-self: center;
   }
   .home-team {
     flex-direction: column;
@@ -655,21 +596,18 @@
   }
   .home-tech {
     width: 100%;
-    height: 577px;
+    height: 100%;
     padding-left: var(--dl-space-space-doubleunit);
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-doubleunit);
     background-color: #ffffff;
   }
-  .home-text22 {
+  .home-text28 {
     text-align: center;
-  }
-  .home-tech-main {
-    width: 684px;
   }
   .home-kennels-game {
     width: 100%;
-    height: 842px;
+    height: 100%;
     flex-direction: column;
   }
   .home-kennels-game-text {
@@ -678,7 +616,7 @@
   }
   .home-roadmap {
     width: 100%;
-    height: 1238px;
+    height: 100%;
     padding-left: var(--dl-space-space-doubleunit);
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-doubleunit);
@@ -687,7 +625,7 @@
   .home-roadmap-container {
     height: 1123px;
   }
-  .home-text29 {
+  .home-text35 {
     text-align: center;
   }
   .home-roadmap-main {
@@ -720,11 +658,11 @@
   .home-link {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-navlink {
+  .home-navlink1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-navlink1 {
+  .home-text {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -733,6 +671,29 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-link2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-nav1 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .home-text01 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text02 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text03 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text04 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text05 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -779,20 +740,17 @@
   }
   .home-tech {
     width: 100%;
-    height: 603px;
+    height: 100%;
     margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
-  .home-tech-main {
-    width: 100%;
+    padding-bottom: 15px;
   }
   .home-kennels-game {
     width: 100%;
-    height: 915px;
+    height: 100%;
     position: relative;
     padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
   }
   .home-kennels-game-heading {
     padding-bottom: 0px;
@@ -803,9 +761,9 @@
   }
   .home-roadmap {
     width: 100%;
-    height: 1218px;
+    height: 100%;
     margin-bottom: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
   }
   .home-roadmap-container {
     height: 1132px;
@@ -830,15 +788,20 @@
   .home-welcome {
     height: 100%;
     padding-top: 0px;
+    padding-left: 15px;
     margin-bottom: 0px;
+    padding-right: 15px;
     padding-bottom: 0px;
   }
   .home-welcome-container {
     height: 100%;
+    padding-left: 0px;
     margin-bottom: 29px;
+    padding-right: 0px;
   }
   .home-welcome-heading {
     width: 100%;
+    height: 100%;
   }
   .home-welcome-text {
     width: 100%;
@@ -846,7 +809,7 @@
     margin-bottom: 0px;
   }
   .home-team {
-    height: 556px;
+    height: 100%;
     max-width: auto;
     min-width: auto;
     align-self: center;
@@ -873,17 +836,12 @@
     justify-content: center;
   }
   .home-feature-card {
-    top: 0px;
-    left: 0px;
-    right: 0px;
     width: 100%;
-    bottom: 0px;
     height: 241px;
-    margin: auto;
-    position: absolute;
     align-self: center;
     border-color: var(--dl-color-gray-900);
     border-width: 1px;
+    margin-bottom: 0px;
   }
   .home-image2 {
     display: none;
@@ -895,15 +853,10 @@
     margin-bottom: 15px;
   }
   .home-feature-card1 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
     width: 100%;
-    bottom: 0px;
     height: 241px;
-    margin: auto;
-    position: absolute;
-    align-self: flex-end;
+    align-self: center;
+    margin-top: 0px;
     border-color: var(--dl-color-gray-900);
     border-width: 1px;
   }
@@ -911,18 +864,13 @@
     display: none;
   }
   .home-tech {
-    height: 832px;
-    padding-top: 41px;
-    padding-bottom: 0px;
-  }
-  .home-tech-main {
-    width: 100%;
     height: 100%;
-    padding-left: 0px;
-    margin-bottom: 30px;
-    padding-right: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
   }
-  .home-text24 {
+  .home-text30 {
     width: 100%;
     height: 100%;
     margin-bottom: 0px;
@@ -937,31 +885,37 @@
     max-height: 100%;
     min-height: 100%;
     align-items: center;
-    padding-top: 21px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: 29px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .home-kennels-picture {
+    height: 100%;
   }
   .home-kennels-game-heading {
     top: 411px;
     right: -58px;
-    width: 90%;
-    height: 59px;
+    width: 100%;
+    height: 114px;
     position: static;
   }
   .home-kennels-game-text {
-    width: 90%;
+    width: 100%;
     height: 100%;
     position: static;
     align-self: center;
   }
   .home-roadmap {
-    height: 1351px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
   }
   .home-roadmap-container {
-    width: 412px;
+    width: 100%;
+    height: 100%;
   }
   .home-roadmap-main {
     width: 100%;
@@ -970,7 +924,7 @@
     margin-bottom: 0px;
     padding-right: 0px;
   }
-  .home-text31 {
+  .home-text37 {
     width: 100%;
     height: 100%;
     margin-bottom: 0px;

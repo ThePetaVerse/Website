@@ -41,6 +41,7 @@
 
 
 
+
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;
@@ -91,12 +92,16 @@
   padding-bottom: 1.5rem;
   justify-content: space-between;
 }
+.mint-navlink {
+  display: contents;
+}
 .mint-image {
   width: 213px;
   height: 142px;
   align-self: center;
   object-fit: cover;
   list-style-type: disc;
+  text-decoration: none;
   list-style-image: none;
   list-style-position: outside;
 }
@@ -127,6 +132,11 @@
 .mint-text {
   color: #000000;
 }
+.mint-navlink1 {
+  color: #000000;
+  margin-left: 32px;
+  text-decoration: none;
+}
 .mint-text01 {
   color: #000000;
   margin-left: 32px;
@@ -136,10 +146,6 @@
   margin-left: 32px;
 }
 .mint-text03 {
-  color: #000000;
-  margin-left: 32px;
-}
-.mint-text04 {
   color: #000000;
   margin-left: 32px;
 }
@@ -165,7 +171,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.mint-navlink {
+.mint-navlink2 {
   display: contents;
 }
 .mint-heading {
@@ -236,19 +242,19 @@
   width: 100%;
   text-align: center;
 }
-.mint-text07 {
+.mint-text06 {
   font-weight: 700;
 }
-.mint-text11 {
+.mint-text10 {
   font-weight: 700;
 }
-.mint-text14 {
+.mint-text13 {
   font-weight: 700;
 }
-.mint-text17 {
+.mint-text16 {
   font-weight: 700;
 }
-.mint-text20 {
+.mint-text19 {
   font-weight: 700;
 }
 .mint-mint {
@@ -262,8 +268,8 @@
   justify-content: center;
 }
 .mint-textinput {
-  width: 22px;
-  height: 24px;
+  width: 45px;
+  height: 26px;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -283,11 +289,15 @@
   justify-content: center;
   background-color: #ffffff;
 }
+.mint-navlink3 {
+  display: contents;
+}
 .mint-logo {
   width: 282px;
   height: 166px;
   align-self: center;
   object-fit: cover;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .mint-header {
@@ -327,6 +337,10 @@
   .mint-text {
     margin-bottom: var(--dl-space-space-unit);
   }
+  .mint-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .mint-text01 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
@@ -336,10 +350,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .mint-text03 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .mint-text04 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -367,6 +377,9 @@
     padding-right: 16px;
   }
   .mint-mint-connect-wallet {
+    display: none;
+  }
+  .mint-textinput {
     display: none;
   }
   .mint-mint-now {
