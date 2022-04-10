@@ -1,73 +1,3 @@
-.navigation-links-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.navigation-links-text {
-  color: #000000;
-}
-.navigation-links-text1 {
-  color: #000000;
-  margin-left: 32px;
-}
-.navigation-links-text2 {
-  color: #000000;
-  margin-left: 32px;
-}
-.navigation-links-text3 {
-  color: #000000;
-  margin-left: 32px;
-}
-.navigation-links-text4 {
-  color: #000000;
-  margin-left: 32px;
-}
-
-
-
-
-
-
-
-
-
-
-.navigation-links-root-class-name10 {
-  align-self: flex-end;
-}
-
-
-
-
-
-
-@media(max-width: 767px) {
-  .navigation-links-nav {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .navigation-links-text {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text4 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-}
-
 .kennels-container {
   width: 100%;
   display: flex;
@@ -124,16 +54,16 @@
   align-items: center;
   flex-direction: row;
 }
-.kennels-navlink1 {
+.kennels-navlink01 {
   color: #000000;
   text-decoration: none;
 }
-.kennels-navlink2 {
+.kennels-navlink02 {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
 }
-.kennels-navlink3 {
+.kennels-navlink03 {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
@@ -168,7 +98,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.kennels-navlink4 {
+.kennels-navlink04 {
   display: contents;
 }
 .kennels-heading {
@@ -192,6 +122,36 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.kennels-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.kennels-navlink05 {
+  color: #000000;
+  text-decoration: none;
+}
+.kennels-navlink06 {
+  color: #000000;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.kennels-navlink07 {
+  color: #000000;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.kennels-navlink08 {
+  color: #000000;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.kennels-navlink09 {
+  color: #000000;
+  margin-left: 32px;
+  text-decoration: none;
 }
 .kennels-kennel-section1 {
   width: 100%;
@@ -321,7 +281,7 @@
   justify-content: center;
   background-color: #ffffff;
 }
-.kennels-navlink5 {
+.kennels-navlink10 {
   display: contents;
 }
 .kennels-image4 {
@@ -355,14 +315,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .kennels-navlink1 {
+  .kennels-navlink01 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .kennels-navlink2 {
+  .kennels-navlink02 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .kennels-navlink3 {
+  .kennels-navlink03 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -374,14 +334,48 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
+  .kennels-nav1 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .kennels-navlink05 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kennels-navlink06 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kennels-navlink07 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kennels-navlink08 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kennels-navlink09 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
 }
 @media(max-width: 479px) {
   .kennels-mobile-menu {
-    width: 478px;
+    width: 100%;
     height: 408px;
-    display: none;
     border-color: var(--dl-color-gray-900);
     border-width: 1px;
+  }
+  .kennels-mid {
+    align-items: flex-start;
+  }
+  .kennels-container4 {
+    width: 100%;
+  }
+  .kennels-image2 {
+    width: 100%;
+  }
+  .kennels-image3 {
+    width: 100%;
   }
   .kennels-container5 {
     align-items: center;
