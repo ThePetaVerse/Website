@@ -1,4 +1,4 @@
-const Submitted = document.getElementById("kennellookup")
+const Submitted = document.querySelector(".kennellookup")
 
 Submitted.addEventListener('click', () => {
     let Knumber = document.getElementById("kennelnumber").value;
