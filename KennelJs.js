@@ -1,5 +1,6 @@
 const Submitted = document.getElementById("kennellookup")
-document.getElementById("kennellookup").onclick = function() {
+
+Submitted.addEventListener('click', () => {
     let Knumber = document.getElementById("kennelnumber").value;
     let text;
     if (isNaN(Knumber) || Knumber < 1 || Knumber > 5) {
@@ -8,4 +9,4 @@ document.getElementById("kennellookup").onclick = function() {
         text = "Valid";
     }
     document.getElementById("test").innerHTML = text;
-}
+})
