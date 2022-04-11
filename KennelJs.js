@@ -9,4 +9,4 @@ Submitted.addEventListener('click', () => {
         text = "Valid";
     }
     document.getElementById("test").innerHTML = text;
-})
+});
