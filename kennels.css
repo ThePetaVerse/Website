@@ -150,6 +150,7 @@
   align-self: center;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 .kennels-container2 {
   width: 100%;
@@ -171,22 +172,25 @@
 }
 .kennels-container3 {
   flex: 0 0 auto;
-  width: auto;
-  height: auto;
+  width: 294px;
+  height: 100%;
   display: flex;
+  align-self: center;
   align-items: center;
   justify-content: center;
 }
 .kennels-textinput {
-  width: 69px;
-  height: 30px;
+  width: 50%;
+  height: 33px;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 0px;
 }
 .kennels-button {
-  margin-left: 15px;
+  width: 362px;
+  height: 56px;
+  margin-left: 28px;
   background-color: var(--dl-color-pimary-500);
 }
 .kennels-text08 {
