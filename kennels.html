@@ -191,7 +191,7 @@
       function kennelsearch() {
           let Knumber = document.getElementById("kennelnumber").value;
           let text;
-          if (isNaN(Knumber) || Knumber < 0 || Knumber > 9999) {
+          if (isNaN(Knumber) || Knumber < 0 || Knumber > 9999 || (Knumber % 1) != 0) {
               text = "Invalid";
           } else {
               text = "Valid";
