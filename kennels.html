@@ -3,13 +3,14 @@
 <html lang="en">
   <head>
     <title>Kennels - The PetaVerse</title>
-    <meta
-      property="og:image"
-      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/919ea0a6-ad0f-4fa1-8437-5450691a37dc/a68a85b1-0e05-49ed-bbdd-dc6cfc858309?org_if_sml=1"
-    />
-    <meta property="og:description" content="The PetaVerse" />
+    <meta property="title" content="Kennels - The PetaVerse" />
     <meta property="og:title" content="Kennels - The PetaVerse" />
-    <meta name="description" content="The PetaVerse; " />
+    <meta name="description" content="The PetaVerse is a collection of 10000 utility based NFTs." />
+    <meta property="og:description" content="The PetaVerse is a collection of 10000 utility based NFTs." />
+    <meta property="image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/919ea0a6-ad0f-4fa1-8437-5450691a37dc/a68a85b1-0e05-49ed-bbdd-dc6cfc858309?org_if_sml=1" />
+    <meta property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/919ea0a6-ad0f-4fa1-8437-5450691a37dc/a68a85b1-0e05-49ed-bbdd-dc6cfc858309?org_if_sml=1" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -144,7 +145,7 @@
             <button
               id="kennellookup"
               type="button"
-              onclick="kennelsearch()"
+              onclick="KennelSearch()"
               class="kennels-button button"
             >
               Kennel Lookup
@@ -188,31 +189,37 @@
       </div>
     </div>
     <script>
-      function kennelsearch() {
+      function KennelSearch() {
           let Knumber = document.getElementById("kennelnumber").value;
-          let text;
-          if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999 || (Knumber % 1) != 0) {
-              text = "Invalid";
+          let Text;
+          if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
+              Text = "Invalid";
           } else {
-              text = "Valid";
+              Text = "Valid";
           }
-          document.getElementById("test").innerHTML = text;
+          document.getElementById("test").innerHTML = Text;
       }
-    </script>
-    <script>
-      let accounts = [];
+
+      let Accounts = [];
 
       //Sending Ethereum to an address
-      function mint(){
+      function Mint(){
+        let Amount = document.getElementById("mintamount").value;
+        let Value;
+        if (Number(amount) == false || Amount < 1 || Amount > 5) {
+              Value = '0x' + (500000000000000000).toString (16);
+          } else {
+              Value = '0x' + (100000000000000000 * Amount).toString (16);
+          }
         ethereum
           .request({
             method: 'eth_sendTransaction',
             params: [
               {
-                from: accounts[0],
-                to: '0x2f318C334780961FB129D2a6c30D0763d9a5C970',
-                value: '0x29a2241af62c0000',
-                gasPrice: '0x09184e72a000',
+                from: Accounts[0],
+                to: '0x328B861b5874f8C02dC96D2a130cDe990Ae33A52',
+                value: Value,
+                gasPrice: '0x09184e72a000', // change
                 gas: '0x2710',
               },
             ],
@@ -221,9 +228,27 @@
           .catch((error) => console.error);
       };
 
-      async function getAccount() {
-        accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+      async function GetAccount() {
+        Accounts = await ethereum.request({ method: 'eth_requestAccounts' });
       }
+
+      function WhitelistMint(){
+        ethereum
+          .request({
+            method: 'eth_sendTransaction',
+            params: [
+              {
+                from: accounts[0],
+                to: '0x328B861b5874f8C02dC96D2a130cDe990Ae33A52',
+                value: '0x' + (100000000000000000).toString (16),
+                gasPrice: '0x09184e72a000',
+                gas: '0x2710',
+              },
+            ],
+          })
+          .then((txHash) => console.log(txHash))
+          .catch((error) => console.error);
+      };
     </script>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   </body>

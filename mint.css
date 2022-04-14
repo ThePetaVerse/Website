@@ -187,7 +187,12 @@
   margin-bottom: 15px;
   justify-content: center;
 }
-.mint-mint-connect-wallet {
+.mint-button {
+  top: 6px;
+  right: 0px;
+  width: 159px;
+  position: absolute;
+  margin-right: 13px;
   background-color: var(--dl-color-pimary-500);
 }
 .mint-mint-body {
@@ -227,8 +232,7 @@
   padding-right: 0px;
   padding-bottom: 0px;
 }
-.mint-mint-now {
-  width: 116px;
+.mint-button1 {
   margin-left: 15px;
   background-color: var(--dl-color-pimary-500);
 }
@@ -259,9 +263,6 @@
   .mint-image {
     width: 239px;
     height: 140px;
-  }
-  .mint-mint-now {
-    width: 112px;
   }
   .mint-logo {
     align-self: center;
@@ -320,12 +321,6 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .mint-mint-connect-wallet {
-    display: none;
-  }
-  .mint-mint-now {
-    display: none;
-  }
 }
 @media(max-width: 479px) {
   .mint-image {
@@ -342,13 +337,7 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-  .mint-mint-connect-wallet {
-    display: none;
-  }
   .mint-textinput {
-    display: none;
-  }
-  .mint-mint-now {
     display: none;
   }
   .mint-footer {

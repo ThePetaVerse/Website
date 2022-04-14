@@ -1,3 +1,6 @@
+.secondary-button-root-class-name {
+  margin-top: var(--dl-space-space-unitandhalf);
+}
 .secondary-button-container {
   display: flex;
   position: relative;
@@ -20,7 +23,4 @@
 }
 .secondary-button-button:active {
   background-color: var(--dl-color-secondary-100);
-}
-.secondary-button-root-class-name {
-  margin-top: var(--dl-space-space-unitandhalf);
 }
