@@ -79,7 +79,7 @@
           <a href="https://thepetaverse.io" class="mint-navlink">
             <img
               alt="image"
-              src="public/playground_assets/petaverselogo2-200h.jpg"
+              src="1aeff760-f070-46c4-9372-bbcc4aea0f31"
               class="mint-image"
             />
           </a>
@@ -182,6 +182,7 @@
           <div class="mint-mint">
             <input
               type="number"
+              id="mintamount"
               max="5"
               min="1"
               step="1"
@@ -189,7 +190,7 @@
               class="mint-textinput input"
             />
             <button
-              onclick="mint()"
+              onclick="Mint()"
               class="mint-mint-now button MintNow"
             >
               Mint Now
@@ -200,7 +201,7 @@
           <a href="https://thepetaverse.io" class="mint-navlink8">
             <img
               alt="image"
-              src="public/playground_assets/petaverselogo2-200h.jpg"
+              src="1aeff760-f070-46c4-9372-bbcc4aea0f31"
               class="mint-logo"
             />
           </a>
@@ -211,19 +212,25 @@
       function kennelsearch() {
           let Knumber = document.getElementById("kennelnumber").value;
           let text;
-          if (isNaN(Knumber) || Knumber < 0 || Knumber > 9999) {
+          if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
               text = "Invalid";
           } else {
               text = "Valid";
           }
           document.getElementById("test").innerHTML = text;
       }
-    </script>
-    <script>
+
       let accounts = [];
 
       //Sending Ethereum to an address
-      function mint(){
+      function Mint(){
+        let Amount = document.getElementById("mintamount").value;
+        let Value;
+        if (Number(amount) == false || Amount < 1 || Amount > 5) {
+              Value = '0x' + (500000000000000000).toString (16);
+          } else {
+              Value = '0x' + (100000000000000000 * Amount).toString (16);
+          }
         ethereum
           .request({
             method: 'eth_sendTransaction',
@@ -231,7 +238,7 @@
               {
                 from: accounts[0],
                 to: '0x2f318C334780961FB129D2a6c30D0763d9a5C970',
-                value: '0x29a2241af62c0000',
+                value: Value,
                 gasPrice: '0x09184e72a000',
                 gas: '0x2710',
               },
@@ -244,6 +251,24 @@
       async function getAccount() {
         accounts = await ethereum.request({ method: 'eth_requestAccounts' });
       }
+
+      function WhitelistMint(){
+        ethereum
+          .request({
+            method: 'eth_sendTransaction',
+            params: [
+              {
+                from: accounts[0],
+                to: '0x2f318C334780961FB129D2a6c30D0763d9a5C970',
+                value: '0x' + (100000000000000000).toString (16),
+                gasPrice: '0x09184e72a000',
+                gas: '0x2710',
+              },
+            ],
+          })
+          .then((txHash) => console.log(txHash))
+          .catch((error) => console.error);
+      };
     </script>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   </body>
