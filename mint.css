@@ -22,7 +22,7 @@
   padding-bottom: 1.5rem;
   justify-content: space-between;
 }
-.mint-navlink {
+.mint-link {
   display: contents;
 }
 .mint-image {
@@ -59,16 +59,16 @@
   align-items: center;
   flex-direction: row;
 }
-.mint-navlink1 {
+.mint-link1 {
   color: #000000;
   text-decoration: none;
 }
-.mint-navlink2 {
+.mint-navlink {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
 }
-.mint-navlink3 {
+.mint-navlink1 {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
@@ -99,7 +99,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.mint-navlink4 {
+.mint-navlink2 {
   display: contents;
 }
 .mint-heading {
@@ -130,16 +130,16 @@
   align-items: center;
   flex-direction: row;
 }
-.mint-navlink5 {
+.mint-navlink3 {
   color: #000000;
   text-decoration: none;
 }
-.mint-navlink6 {
+.mint-navlink4 {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
 }
-.mint-navlink7 {
+.mint-navlink5 {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
@@ -193,7 +193,7 @@
   width: 159px;
   position: absolute;
   margin-right: 13px;
-  background-color: var(--dl-color-pimary-500);
+  background-color: #4D6EFF;
 }
 .mint-mint-body {
   width: 100%;
@@ -234,7 +234,7 @@
 }
 .mint-button1 {
   margin-left: 15px;
-  background-color: var(--dl-color-pimary-500);
+  background-color: #4D6EFF;
 }
 .mint-footer {
   width: 100%;
@@ -245,7 +245,7 @@
   justify-content: center;
   background-color: #ffffff;
 }
-.mint-navlink8 {
+.mint-link2 {
   display: contents;
 }
 .mint-logo {
@@ -287,14 +287,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .mint-navlink1 {
+  .mint-link1 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .mint-navlink2 {
+  .mint-navlink {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .mint-navlink3 {
+  .mint-navlink1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -306,14 +306,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .mint-navlink5 {
+  .mint-navlink3 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .mint-navlink6 {
+  .mint-navlink4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .mint-navlink7 {
+  .mint-navlink5 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

@@ -21,7 +21,7 @@
   padding-bottom: 1.5rem;
   justify-content: space-between;
 }
-.kennels-navlink {
+.kennels-link {
   display: contents;
 }
 .kennels-image {
@@ -54,16 +54,16 @@
   align-items: center;
   flex-direction: row;
 }
-.kennels-navlink1 {
+.kennels-link1 {
   color: #000000;
   text-decoration: none;
 }
-.kennels-navlink2 {
+.kennels-navlink {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
 }
-.kennels-navlink3 {
+.kennels-navlink1 {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
@@ -94,7 +94,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.kennels-navlink4 {
+.kennels-navlink2 {
   display: contents;
 }
 .kennels-heading {
@@ -125,16 +125,16 @@
   align-items: center;
   flex-direction: row;
 }
-.kennels-navlink5 {
+.kennels-navlink3 {
   color: #000000;
   text-decoration: none;
 }
-.kennels-navlink6 {
+.kennels-navlink4 {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
 }
-.kennels-navlink7 {
+.kennels-navlink5 {
   color: #000000;
   margin-left: 32px;
   text-decoration: none;
@@ -189,9 +189,9 @@
 }
 .kennels-button {
   width: 362px;
-  height: 56px;
+  height: 100%;
   margin-left: 28px;
-  background-color: var(--dl-color-pimary-500);
+  background-color: #4D6EFF;
 }
 .kennels-text08 {
   width: 100%;
@@ -280,7 +280,7 @@
   justify-content: center;
   background-color: #ffffff;
 }
-.kennels-navlink8 {
+.kennels-link2 {
   display: contents;
 }
 .kennels-image4 {
@@ -314,14 +314,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .kennels-navlink1 {
+  .kennels-link1 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .kennels-navlink2 {
+  .kennels-navlink {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .kennels-navlink3 {
+  .kennels-navlink1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -333,14 +333,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .kennels-navlink5 {
+  .kennels-navlink3 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .kennels-navlink6 {
+  .kennels-navlink4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .kennels-navlink7 {
+  .kennels-navlink5 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
