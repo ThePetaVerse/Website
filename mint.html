@@ -226,7 +226,7 @@
       function Mint(){
         let Amount = document.getElementById("mintamount").value;
         let Value;
-        if (Number(amount) == false || Amount < 1 || Amount > 5) {
+        if (Number(Amount) == false || Amount < 1 || Amount > 5) {
               Value = '0x' + (500000000000000000).toString (16);
           } else {
               Value = '0x' + (100000000000000000 * Amount).toString (16);
