@@ -2,15 +2,11 @@
 
 <html lang="en">
   <head>
-    <title>The PetaVerse</title>
-    <meta property="title" content="The PetaVerse" />
-    <meta property="og:title" content="The PetaVerse" />
-    <meta name="description" content="The PetaVerse is a collection of 10000 utility based NFTs." />
-    <meta property="og:description" content="The PetaVerse is a collection of 10000 utility based NFTs." />
-    <meta property="image"
-      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/919ea0a6-ad0f-4fa1-8437-5450691a37dc/a68a85b1-0e05-49ed-bbdd-dc6cfc858309?org_if_sml=1" />
-    <meta property="og:image"
-      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/919ea0a6-ad0f-4fa1-8437-5450691a37dc/a68a85b1-0e05-49ed-bbdd-dc6cfc858309?org_if_sml=1" />
+    <title>Soft UI Pro</title>
+    <meta property="og:title" content="Soft UI Pro" />
+    <meta property="og:title" content="Profile - Soft UI Pro" />
+    <meta property="og:title" content="Mint - Soft UI Pro" />
+    <meta property="og:title" content="Whitelist Mint - Soft UI Pro" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -20,28 +16,34 @@
     </style>
     <style>
       html {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
-        font-size: 1.12rem;
+        font-family: Open Sans;
+        font-size: 1rem;
       }
 
       body {
-        font-weight: 300;
+        font-weight: 400;
         font-style:normal;
         text-decoration: none;
         text-transform: none;
         letter-spacing: normal;
-        line-height: 1.75;
-        color: var(--dl-color-gray-900);
+        line-height: 1.625;
+        color: var(--dl-color-secondary-400);
         background-color: var(--dl-color-gray-white);
 
       }
     </style>
     <link
-      rel="shortcut icon"
-      href="/playground_assets/gates [2]-400w.jpg"
-      type="icon/png"
-      sizes="32x32"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
     />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
 
     <script>
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -70,36 +72,37 @@
 
       <div class="index-container">
         <div data-role="Header" class="index-header">
-          <a href="https://thepetaverse.io/" class="index-link">
-            <img
-              alt="image"
-              src="public/playground_assets/petaverselogo2-200h.jpg"
-              class="index-image"
-            />
-          </a>
-          <div data-type="BurgerMenu" class="index-burger-menu">
-            <svg viewBox="0 0 1024 1024" class="index-icon">
-              <path
-                d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
-              ></path>
-            </svg>
-          </div>
-          <div class="index-container1">
-            <nav class="index-nav">
-              <span class="index-text">Meet The Team</span>
-              <a href="kennels.html" class="index-navlink">Explore The Zoo</a>
-              <a href="#mint" class="index-link1">Mint</a>
-              <a href="#kennels" class="index-link2">The Kennels</a>
-              <a href="#kennels" class="index-link3">Pet Arcade</a>
-            </nav>
-          </div>
+          <nav class="index-nav">
+            <div class="index-container01">
+              <a href="index.html" class="index-navlink large">
+                <span>The PetaVerse</span>
+              </a>
+              <div class="index-menu">
+                <a href="index.html" class="index-navlink01 large">Home</a>
+                <a href="profile.html" class="index-navlink02 large">
+                  The Team
+                </a>
+                <a href="mint.html" class="index-navlink03 large">Roadmap</a>
+              </div>
+              <div class="index-container02">
+                <div class="index-container03"></div>
+                <div data-type="BurgerMenu" class="index-burger-menu">
+                  <svg viewBox="0 0 1024 1024" class="index-icon">
+                    <path
+                      d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </nav>
           <div data-type="MobileMenu" class="index-mobile-menu">
             <div class="index-top">
-              <a href="index.html" class="index-navlink1">
-                <h1 class="index-heading textSM">The PetaVerse</h1>
+              <a href="index.html" class="index-navlink04 large">
+                Soft UI Design System
               </a>
               <div data-type="CloseMobileMenu" class="index-close-menu">
-                <svg viewBox="0 0 1024 1024" class="index-icon2">
+                <svg viewBox="0 0 1024 1024" class="index-icon02">
                   <path
                     d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                   ></path>
@@ -107,258 +110,563 @@
               </div>
             </div>
             <div class="index-mid">
-              <nav class="index-nav1">
-                <span class="index-text01">Meet The Team</span>
-                <a href="kennels.html" class="index-navlink2">
-                  Explore The Zoo
+              <div class="index-menu1">
+                <a href="index.html" class="index-navlink05 large">Home</a>
+                <a href="profile.html" class="index-navlink06 large">Profile</a>
+                <a href="mint.html" class="index-navlink07 large">
+                  Coming Soon
                 </a>
-                <a href="#mint" class="index-link4">Mint</a>
-                <a href="#kennels" class="index-link5">The Kennels</a>
-                <a href="#kennels" class="index-link6">Play-To-Win Game</a>
-              </nav>
+              </div>
+            </div>
+            <div class="index-bot">
+              <div class="primary-pink-button-container">
+                <button class="primary-pink-button-button button buttonSmall">
+                  <span>buy now</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div id="mainpicture" class="index-main-picture">
-          <img
-            alt="image"
-            src="https://play.teleporthq.io/static/svg/default-img.svg"
-            class="index-image1"
-          />
-        </div>
-        <div id="welcome" class="index-welcome">
-          <div class="index-welcome-container">
-            <h3 class="index-welcome-heading healine">
-              Welcome to the PetaVerse
-            </h3>
-            <span class="index-welcome-text textXL">
-              <span class="index-text02">
-                The PetaVerse is an utility based collection of 10,000 NFTs,
-                with each NFT being randomly generated by hand-drawn artwork
-                providing the highest quality JPEG on the Ethereum blockchain.
-              </span>
-              <br />
-              <span class="index-text03">​</span>
-              <br />
-              <span class="index-text04">
-                Buying a unique NFT will gain you exclusive access to the
-                &apos;Kennels&apos;: a luxury residence for your pet. By
-                participating and also beating our Play to Win game you can
-                ensure your pet has the best home available to them as you will
-                be rewarded items and decorations that will be automatically
-                placed in your kennel.
-              </span>
-            </span>
-          </div>
-        </div>
-        <div id="mint" class="index-mint">
-          <div class="index-container2">
-            <h1 class="index-text05"><span>Mint</span></h1>
-            <span class="index-text07">
-              Mint blah blah for more information click below
-            </span>
-            <div class="index-container3">
-              <a href="w-l-mint.html" class="index-navlink3 button">
-                <span><span>Whitelist</span></span>
-              </a>
-              <a href="mint.html" class="index-navlink4 button">
-                <span>Mint</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div id="roadmap" class="index-roadmap">
-          <img
-            alt="image"
-            src="public/playground_assets/roadmaps-1900h.png"
-            class="index-image2"
-          />
-          <div class="index-roadmap-container">
-            <h2 class="index-text11 text2XL">
-              <span class="index-text12">The Roadmap</span>
-            </h2>
-            <div class="index-roadmap-main">
-              <span class="index-text13 textXL">
-                <span class="index-text14"></span>
-                <span class="index-text15"></span>
-                <span class="index-text16"></span>
-                <span class="index-text17">Phase 1 Community:</span>
-                <br />
-                <span>Creation of all of our social channels</span>
-                <br />
-                <span>ETA: Completed</span>
-                <br />
-                <span>​Discord:</span>
-                <br />
-                <span>Twitter: twitter.com/BarrackObama</span>
-                <br />
-                <span>Website: You&apos;re on it ??</span>
-                <br />
-                <span></span>
-                <br />
-                <span class="index-text24">Phase 2 Meet the pets:</span>
-                <br />
-                <span>Sneak peek releases of the pets ready for adoption</span>
-                <br />
-                <span>ETA: Ongoing</span>
-                <br />
+        <div class="index-hero">
+          <div class="index-container04">
+            <div class="index-card">
+              <h1 class="index-text001 headingOne">Welcome to The PetaVerse</h1>
+              <h1 class="index-text002 headingOne">Choose the best</h1>
+              <span class="index-text003 lead">
                 <span>
-                  Check in with our discord and twitter regularly so you
-                  don&apos;t miss a single sneak peak
+                  The PetaVerse is an utility based collection of 10,000 NFTs,
+                  with each NFT being randomly generated by hand-drawn artwork
+                  providing the highest quality JPEG on the Ethereum blockchain.
                 </span>
                 <br />
                 <span>​</span>
                 <br />
-                <span class="index-text29">Phase 3 Mint:</span>
-                <br />
-                <span>Mint day</span>
-                <br />
-                <span>ETA: Developing</span>
-                <br />
                 <span>
-                  The big day is arriving buckle your ether into metamask ready
-                  for launch off
-                </span>
-                <br />
-                <span>
-                  More information in the mint section of this website
-                </span>
-                <br />
-                <span></span>
-                <br />
-                <span class="index-text35">Phase 4 Deployments:</span>
-                <br />
-                <span>Game release and kennels</span>
-                <br />
-                <span>ETA: Testing</span>
-                <br />
-                <span>
-                  Our revelutionary game that will be tied into the kennels
-                  shortly post release
-                </span>
-                <br />
-                <span>For more information click kennels or game above</span>
-                <br />
-                <span></span>
-                <br />
-                <span class="index-text43">Phase 5 Roadmap 2.0</span>
-                <br />
-                <span>Still writing it up...</span>
-                <br />
-                <span>ETA: Post mint</span>
-                <br />
-                <span>
-                  If all goes well we may be seeing a Metaverse super kennel and
-                  we can blow the cobwebs off the meat grinder.
+                  Buying a unique NFT will gain you exclusive access to the
+                  &apos;Kennels&apos;: a luxury residence for your pet. By
+                  participating and also beating our Play to Win game you can
+                  ensure your pet has the best home available to them as you
+                  will be rewarded items and decorations that will be
+                  automatically placed in your kennel.
                 </span>
               </span>
+              <div class="index-container05">
+                <div class="index-container06">
+                  <a
+                    href="mint.html"
+                    class="index-navlink08 button buttonSmall"
+                  >
+                    Mint
+                  </a>
+                </div>
+                <div class="index-container07">
+                  <a
+                    href="whitelist-mint.html"
+                    onclick="WhitelistMint()"
+                    class="index-navlink09 button buttonSmall"
+                  >
+                    Whitelist Mint
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <img
           alt="image"
-          src="public/playground_assets/gray-vector.svg"
-          class="index-image3"
+          src="public/playground_assets/curved6-1500h.jpg"
+          class="index-image"
         />
-        <div id="team" class="index-team">
-          <div class="index-team-boundary">
-            <div class="index-s-m">
-              <div class="index-feature-card">
-                <h2 class="index-text50">
-                  <span class="index-text51"></span>
-                  <span class="index-text52">Head of Development:</span>
-                  <br />
-                  <span class="index-text54">Satoshi Miteamoto</span>
-                </h2>
-                <span class="index-text55">Created Mitecoin</span>
-              </div>
+        <section class="index-features">
+          <div class="index-container08">
+            <img
+              alt="image"
+              src="public/playground_assets/cube1.svg"
+              class="index-image01"
+            />
+            <h5 class="index-text007 headingThree">Components</h5>
+            <span class="index-text008">
+              Choose the best design system for your next product.
+            </span>
+          </div>
+          <div class="index-container09">
+            <img
+              alt="image"
+              src="public/playground_assets/person1.svg"
+              class="index-image02"
+            />
+            <h5 class="index-text009 headingThree">Design</h5>
+            <span class="index-text010">
+              Get the latest design ideas and turn it into reality.
+            </span>
+          </div>
+          <div class="index-container10">
+            <img
+              alt="image"
+              src="public/playground_assets/rocket1.svg"
+              class="index-image03"
+            />
+            <h5 class="index-text011 headingThree">Less Code</h5>
+            <span class="index-text012">
+              Make your code easier to maintain using variables.
+            </span>
+          </div>
+          <div class="index-container11">
+            <img
+              alt="image"
+              src="public/playground_assets/credit%20card1.svg"
+              class="index-image04"
+            />
+            <h5 class="index-text013 headingThree">Fully Responsive</h5>
+            <span class="index-text014">
+              This design system is fully supported on any device.
+            </span>
+          </div>
+        </section>
+        <section class="index-container12">
+          <div class="index-container13">
+            <h1 class="index-text015 headingOne">
+              <span class="index-text016">From nothing to something</span>
+            </h1>
+            <span class="index-text017">
+              <span class="index-text018">
+                The highest status people in human history are those that asked
+                for nothing and gave everything
+              </span>
+            </span>
+          </div>
+          <div class="index-container14">
+            <div class="index-container15">
               <img
                 alt="image"
-                src="public/playground_assets/6-300h.png"
-                class="index-image4"
+                src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laptop.jpg"
+                class="index-image05"
+              />
+              <span class="index-text019 small">
+                <span class="index-text020">
+                  &quot;Over the span of the satellite record, Arctic sea ice
+                  has been declining significantly, while sea ice in the
+                  Antarctichas increased very slightly&quot;
+                </span>
+                <br />
+                <span class="index-text022">-NOAA</span>
+              </span>
+            </div>
+            <div class="index-container16">
+              <img
+                alt="image"
+                src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/tasks.jpg"
+                class="index-image06"
               />
             </div>
-            <div class="index-dr-doof">
-              <div class="index-feature-card1">
-                <h2 class="index-text56">
-                  <span class="index-text57"></span>
-                  <span class="index-text58">Head of Community:</span>
+          </div>
+          <img
+            src="public/playground_assets/roadmaps-1200h-1100w.png"
+            class="index-image07"
+          />
+          <div class="index-container17">
+            <div class="index-container18">
+              <div class="index-container19">
+                <h1 class="index-text023 headingOne">
+                  <span class="index-text024">The Roadmap</span>
+                </h1>
+                <span class="index-text025">
+                  <span class="index-text026">Phase 1 Community:</span>
                   <br />
-                  <span class="index-text60">Dr Doof</span>
-                </h2>
-                <span class="index-text61">
-                  Thinks Jaffa cakes are a busciut
+                  <span>Creation of all of our social channels</span>
+                  <span>​</span>
+                  <br />
+                  <span>​Discord:</span>
+                  <br />
+                  <span>Twitter: twitter.com/BarrackObama</span>
+                  <br />
+                  <span>Website: You&apos;re on it ??</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span class="index-text033">Phase 2 Meet the pets:</span>
+                  <br />
+                  <span>
+                    Sneak peek releases of the pets ready for adoption
+                  </span>
+                  <br />
+                  <span>
+                    Check in with our discord and twitter regularly so you
+                    don&apos;t miss a single sneak peak
+                  </span>
+                  <br />
+                  <span>​</span>
+                  <br />
+                  <span class="index-text037">Phase 3.1 Mint:</span>
+                  <br />
+                  <span>Mint day</span>
+                  <br />
+                  <span>​</span>
+                  <span>
+                    The big day is arriving buckle your ether into Metamask
+                    ready for launch off
+                  </span>
+                  <br />
+                  <span>
+                    More information in the mint section of this website
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span class="index-text043">Phase 3.2 Deployments:</span>
+                  <br />
+                  <span>Game release and kennels</span>
+                  <br />
+                  <span></span>
+                  <span>
+                    Our revolutionarygame that will be tied into the kennels
+                    shortly post release
+                  </span>
+                  <br />
+                  <span>For more information click kennels or game above</span>
+                  <br />
+                  <span>​</span>
+                  <br />
+                  <span class="index-text049">Phase 5 Roadmap 2.0:</span>
+                  <br />
+                  <span>Still writing it up...</span>
+                  <span>If all</span>
+                  <span>
+                    goes well we may be seeing a Metaverse super kennel and we
+                    can blow the cobwebs off the meat grinder.
+                  </span>
+                  <br />
                 </span>
               </div>
+              <div class="index-container20">
+                <h1 class="index-text053 headingOne">
+                  <span class="index-text054">Time of Arrival</span>
+                </h1>
+                <div class="index-container21">
+                  <span class="index-text055">
+                    <span>ETA: March 2022</span>
+                    <br />
+                    <span>Status: Completed</span>
+                  </span>
+                  <svg viewBox="0 0 1024 1024" class="index-icon04">
+                    <path
+                      d="M864 128l-480 480-224-224-160 160 384 384 640-640z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="index-container22">
+                  <span class="index-text058">
+                    <span>ETA: April 2022</span>
+                    <br />
+                    <span>Status: Ongoing</span>
+                  </span>
+                  <svg viewBox="0 0 1024 1024" class="index-icon06">
+                    <path
+                      d="M0 416v192c0 17.672 14.328 32 32 32h960c17.672 0 32-14.328 32-32v-192c0-17.672-14.328-32-32-32h-960c-17.672 0-32 14.328-32 32z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="index-container23">
+                  <span class="index-text061">
+                    <span>ETA: June 2022</span>
+                    <br />
+                    <span>Status: testing</span>
+                  </span>
+                  <svg viewBox="0 0 1024 1024" class="index-icon08">
+                    <path
+                      d="M0 416v192c0 17.672 14.328 32 32 32h960c17.672 0 32-14.328 32-32v-192c0-17.672-14.328-32-32-32h-960c-17.672 0-32 14.328-32 32z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="index-container24">
+                  <span class="index-text064">
+                    <span>ETA: June 2022</span>
+                    <br />
+                    <span>Status: testing</span>
+                  </span>
+                  <svg viewBox="0 0 1024 1024" class="index-icon10">
+                    <path
+                      d="M0 416v192c0 17.672 14.328 32 32 32h960c17.672 0 32-14.328 32-32v-192c0-17.672-14.328-32-32-32h-960c-17.672 0-32 14.328-32 32z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="index-container25">
+                  <span class="index-text067">
+                    <span>ETA: July 2022</span>
+                    <br />
+                    <span>Status: Not finalized</span>
+                  </span>
+                  <svg viewBox="0 0 1024 1024" class="index-icon12">
+                    <path
+                      d="M0 416v192c0 17.672 14.328 32 32 32h960c17.672 0 32-14.328 32-32v-192c0-17.672-14.328-32-32-32h-960c-17.672 0-32 14.328-32 32z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="index-testimonials">
+          <div class="index-container26">
+            <div class="index-container27">
+              <div class="index-container28">
+                <h2 class="index-text070 headingOne">Work with us</h2>
+                <p class="index-text071 lead">
+                  <span class="index-text072">
+                    Whatever your qualification is - we got you!
+                  </span>
+                </p>
+                <p class="index-text073 body">
+                  <span class="index-text074">
+                    &quot;Take up one idea. Make that one idea your life - think
+                    of it, dream of it, live on that idea. Let the brain,
+                    muscles, nerves, every part of your body, be full of that
+                    idea, and just leave every other idea alone. This is the way
+                    to success. A single rose can be my garden... a single
+                    friend, my world.&quot;
+                  </span>
+                </p>
+                <p class="index-text075">Mark Jojansen</p>
+                <p class="index-text076 small">Project manager, Atlassian</p>
+                <div class="index-container29">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/team-4-200h.jpg"
+                    class="index-image08"
+                  />
+                  <div class="index-container30"></div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/team-3-200h.jpg"
+                    class="index-image09"
+                  />
+                  <div class="index-container31"></div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/team-2-200h.jpg"
+                    class="index-image10"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="index-logos">
+              <div class="index-container32">
+                <div class="index-container33">
+                  <div class="index-container34">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/logo-asana.svg"
+                      class="index-image11"
+                    />
+                  </div>
+                  <div class="index-container35">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/logo-slack.svg"
+                      class="index-image12"
+                    />
+                  </div>
+                  <div class="index-container36">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/logo-google-drive.svg"
+                      class="index-image13"
+                    />
+                  </div>
+                </div>
+                <div class="index-container37">
+                  <div class="index-container38">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/logo-shopify.svg"
+                      class="index-image14"
+                    />
+                  </div>
+                  <div class="index-container39">
+                    <img
+                      alt="image"
+                      src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg"
+                      class="index-image15"
+                    />
+                  </div>
+                  <div class="index-container40">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/logo-invision.svg"
+                      class="index-image16"
+                    />
+                  </div>
+                </div>
+                <div class="index-container41">
+                  <div class="index-container42">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/logo-attlasian.svg"
+                      class="index-image17"
+                    />
+                  </div>
+                  <div class="index-container43">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/logo-weave.svg"
+                      class="index-image18"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/bottom.svg"
+            class="index-bottom-wave-image"
+          />
+          <img
+            alt="image"
+            src="public/playground_assets/waves-white.svg"
+            class="index-image19"
+          />
+          <img
+            alt="image"
+            src="public/playground_assets/top.svg"
+            class="index-top-wave-image"
+          />
+        </section>
+        <section class="index-contaier">
+          <div class="index-container44">
+            <div class="index-container45">
+              <svg viewBox="0 0 1024 1024" class="index-icon14">
+                <path
+                  d="M1024 590.444l-512-397.426-512 397.428v-162.038l512-397.426 512 397.428zM896 576v384h-256v-256h-256v256h-256v-384l384-288z"
+                ></path>
+              </svg>
+            </div>
+            <h1 class="index-text077 headingTwo">
+              <span class="index-text078">The Kennels</span>
+            </h1>
+            <h3 class="index-text079 headingTwo">
+              <span class="index-text080">How To Handle Them</span>
+              <br />
+            </h3>
+            <span class="index-text081">
+              <span class="index-text082">
+                We’re constantly trying to express ourselves and actualize our
+                dreams. Don&apos;t stop.
+              </span>
+            </span>
+          </div>
+          <div class="index-container46">
+            <div class="index-container47">
               <img
                 alt="image"
-                src="public/playground_assets/9-300h.png"
-                class="index-image5"
+                src="https://play.teleporthq.io/static/svg/default-img.svg"
+                class="index-image20"
+              />
+            </div>
+            <div class="index-container48">
+              <div class="index-container49">
+                <h5 class="index-text083 headingThree">
+                  1. Listen to Social Conversations
+                </h5>
+                <span>
+                  Gain access to the demographics, psychographics, and location
+                  of unique people who are interested and talk about your brand.
+                </span>
+              </div>
+              <div class="index-container50">
+                <h5 class="index-text085 headingThree">
+                  2. Performance Analyze
+                </h5>
+                <span>
+                  Unify data from Facebook, Instagram, Twitter, LinkedIn, and
+                  Youtube to gain rich insights from easy-to-use reports.
+                </span>
+              </div>
+              <div class="index-container51">
+                <h5 class="index-text087 headingThree">
+                  3. Social Conversions
+                </h5>
+                <span>
+                  Track actions taken on your website that originated from
+                  social, and understand the impact on your bottom line.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="index-divider"></div>
+          <div class="index-container52">
+            <div class="index-container53">
+              <svg viewBox="0 0 1097.142857142857 1024" class="index-icon16">
+                <path
+                  d="M475.429 621.714v-73.143c0-10.286-8-18.286-18.286-18.286h-109.714v-109.714c0-10.286-8-18.286-18.286-18.286h-73.143c-10.286 0-18.286 8-18.286 18.286v109.714h-109.714c-10.286 0-18.286 8-18.286 18.286v73.143c0 10.286 8 18.286 18.286 18.286h109.714v109.714c0 10.286 8 18.286 18.286 18.286h73.143c10.286 0 18.286-8 18.286-18.286v-109.714h109.714c10.286 0 18.286-8 18.286-18.286zM804.571 658.286c0-40.571-32.571-73.143-73.143-73.143s-73.143 32.571-73.143 73.143 32.571 73.143 73.143 73.143 73.143-32.571 73.143-73.143zM950.857 512c0-40.571-32.571-73.143-73.143-73.143s-73.143 32.571-73.143 73.143 32.571 73.143 73.143 73.143 73.143-32.571 73.143-73.143zM1097.143 585.143c0 161.714-130.857 292.571-292.571 292.571-74.286 0-141.714-28-193.143-73.143h-125.714c-51.429 45.143-118.857 73.143-193.143 73.143-161.714 0-292.571-130.857-292.571-292.571s130.857-292.571 292.571-292.571h512c161.714 0 292.571 130.857 292.571 292.571z"
+                ></path>
+              </svg>
+            </div>
+            <h1 class="index-text089 headingTwo">
+              <span class="index-text090">The Pet Arcade</span>
+            </h1>
+            <h3 class="index-text091 headingTwo">
+              <span class="index-text092">How To Handle Them</span>
+              <br />
+            </h3>
+            <span class="index-text093">
+              <span class="index-text094">
+                We’re constantly trying to express ourselves and actualize our
+                dreams. Don&apos;t stop.
+              </span>
+            </span>
+          </div>
+          <div class="index-container54">
+            <div class="index-container55">
+              <div class="index-container56">
+                <h5 class="index-text095 headingThree">1. Always in Sync</h5>
+                <span>
+                  No matter where you are, Trello stays in sync across all of
+                  your devices.
+                </span>
+              </div>
+              <div class="index-container57">
+                <h5 class="index-text097 headingThree">
+                  2. Work With Any Team
+                </h5>
+                <span>
+                  Unify data from Facebook, Instagram, Twitter, LinkedIn, and
+                  Youtube to gain rich insights from easy-to-use reports.
+                </span>
+              </div>
+              <div class="index-container58">
+                <h5 class="index-text099 headingThree">
+                  3. A Productivity Platform
+                </h5>
+                <span>
+                  Integrate the apps your team already uses directly into your
+                  workflow.
+                </span>
+              </div>
+            </div>
+            <div class="index-container59">
+              <img
+                alt="image"
+                src="https://play.teleporthq.io/static/svg/default-img.svg"
+                class="index-image21"
               />
             </div>
           </div>
-        </div>
-        <div class="index-container4"></div>
-        <div id="tech" class="index-tech">
-          <h2 class="index-text62 text2XL">
-            <span class="index-text63">The Tech</span>
-          </h2>
-          <span class="index-text64 textXL">
-            <span>
-              Each pet is unique and there are NO duplicates. There are over X
-              traits available, from the base character model all the way up to
-              the earring. Due to fantastic statistical bullshit, your pet is
-              very rare and some even more so. Ask someone who isn’t me to
-              explain how to find out how rare yours is.
-            </span>
-            <br />
-            <span>​</span>
-            <br />
-            <span>
-              Back to the part i&apos;m good at, the backend. Each PetaVerse pet
-              is an ERC721 token that is hosted on IPFS. All links and
-              provenance information will be available, in the provenance page,
-              after smart contract deployment. Also, don&apos;t worry about
-              network downtime because we are Ethereum and proud, unlucky
-              Solana.
-            </span>
-          </span>
-        </div>
-        <div id="kennels" class="index-kennels-game">
-          <div class="index-kennels-picture">
+        </section>
+        <footer class="footer1-footer">
+          <div class="footer1-container">
             <img
               alt="image"
-              src="public/playground_assets/city-1-1500w.jpg"
-              class="index-picture"
+              src="public/playground_assets/petaverselogo2-200h-200h.jpg"
+              class="footer1-image"
             />
           </div>
-          <h3 class="index-kennels-game-heading healine">
-            The Kennels and The Pet Arcade
-          </h3>
-          <span class="index-kennels-game-text textXL">
-            <span class="index-text68">
-              Welcome to the most luxurious home on the Ethereum blockchain.
-              after owning pets of our own and understand you would treat them
-              the same as a family member, we decided to bring that to reality
-              and give each owner of one of our NFTS their very own
-              &apos;Kennel&apos; - however these aren&apos;t your average kennel
-              that you would find in your local pet store. They are unique to
-              each pet, boasting a picture of your pet proud on the front wall.
-              If you stagger into the pet arcade, you can earn amazing additions
-              to your pets unique abode. This flashy furniture will be added
-              next time you look at your kennels. 
-            </span>
-          </span>
-        </div>
-        <div class="index-footer">
-          <a href="https://thepetaverse.io/" class="index-link7">
-            <img
-              alt="image"
-              src="public/playground_assets/petaverselogo2-200h.jpg"
-              class="index-image6"
-            />
-          </a>
-        </div>
+          <img
+            alt="image"
+            src="public/playground_assets/waves-white.svg"
+            class="footer1-image1"
+          />
+        </footer>
       </div>
     </div>
     <script>
@@ -394,6 +702,7 @@
                 value: Value,
                 gasPrice: '0x09184e72a000', // change
                 gas: '0x2710',
+                chainId: '0x3',
               },
             ],
           })
