@@ -1,20 +1,3 @@
-
-
-
-
-.navigation-links-root-class-name10 {
-  align-self: flex-end;
-}
-
-
-
-
-
-
-
-
-
-
 .navigation-links-nav {
   flex: 0 0 auto;
   display: flex;
@@ -40,6 +23,23 @@
   color: #000000;
   margin-left: 32px;
 }
+
+
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name10 {
+  align-self: flex-end;
+}
+
+
+
+
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;

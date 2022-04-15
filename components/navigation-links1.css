@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 .navigation-links1-nav {
   flex: 0 0 auto;
   display: flex;
@@ -24,6 +16,14 @@
 .navigation-links1-text4 {
   margin-left: 32px;
 }
+
+
+
+
+
+
+
+
 @media(max-width: 767px) {
   .navigation-links1-nav {
     align-items: flex-start;
