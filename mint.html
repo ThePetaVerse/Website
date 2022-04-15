@@ -126,11 +126,11 @@
             <div class="mint-container5">
               <div class="mint-container6">
                 <h1 class="mint-text01 headingOne">Mint</h1>
-              
-                <button onclick="GetAccount()" class="mint-button">
-                  Connect Wallet
-                </button>
-           
+                <div className={styles['container7']}>
+                  <button onclick="GetAccount()" class="mint-button">
+                    Connect Wallet
+                  </button>
+                </div>
               </div>
               <h2 class="mint-text02 headingThree">
                 <span>
@@ -230,7 +230,7 @@
                 value: Value,
                 gasPrice: '0x09184e72a000', // change
                 gas: '0x2710',
-                data: '0x' + ('purchase(uint256 numberOfTokens)').toString (16);
+                data: '0x' + ('purchase(uint256 numberOfTokens)').toString (16),
                 chainId: '0x3',
               },
             ],
