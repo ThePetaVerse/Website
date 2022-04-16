@@ -126,7 +126,7 @@
             <div class="mint-container5">
               <div class="mint-container6">
                 <h1 class="mint-text01 headingOne">Mint</h1>
-                <div className={styles['container7']}>
+                <div class="mint-container7">
                   <button onclick="GetAccount()" class="mint-button">
                     Connect Wallet
                   </button>
@@ -177,7 +177,7 @@
                 placeholder="-"
                 class="mint-textinput input"
               />
-              <button onclick="WhitelistMint()" class="mint-button1">Mint</button>
+              <button onclick="Mint()" class="mint-button1">Mint</button>
             </div>
           </div>
         </div>
@@ -226,12 +226,11 @@
             params: [
               {
                 from: Accounts[0],
-                to: '0xa8185fD43f9C94F465b9390a8061985F0405b4Bb',
+                to: '0x328B861b5874f8C02dC96D2a130cDe990Ae33A52',
                 value: Value,
                 gasPrice: '0x09184e72a000', // change
                 gas: '0x2710',
-                data: '0xefef39a1c8',
-                chainId: '0x4',
+                chainId: '0x3',
               },
             ],
           })
@@ -250,18 +249,33 @@
             params: [
               {
                 from: Accounts[0],
-                to: '0xa8185fD43f9C94F465b9390a8061985F0405b4Bb',
+                to: '0x328B861b5874f8C02dC96D2a130cDe990Ae33A52',
                 value: '0x' + (100000000000000000).toString (16),
                 gasPrice: '0x09184e72a000',
                 gas: '0x2710',
-                data: '0xef366c57',
-                chainId: '0x4',
               },
             ],
           })
           .then((txHash) => console.log(txHash))
           .catch((error) => console.error);
       };
+    </script>
+    <script>
+      $(document).on("scroll", function() {
+        var pageTop = $(document).scrollTop();
+        var pageBottom = pageTop + $(window).height();
+        var tags = $(".tag");
+
+        for (var i = 0; i < tags.length; i++) {
+          var tag = tags[i];
+
+          if ($(tag).position().top < pageBottom) {
+            $(tag).addClass("visible");
+          } else {
+            $(tag).removeClass("visible");
+          }
+        }
+      });
     </script>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   </body>

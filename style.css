@@ -87,6 +87,21 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+.roadmap {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+.tag\.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
 .small {
   font-size: 0.875rem;
   font-family: Open Sans;
@@ -168,3 +183,6 @@
   letter-spacing: -0.025rem;
   text-transform: uppercase;
 }
+
+
+
