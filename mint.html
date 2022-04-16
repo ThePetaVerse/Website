@@ -177,7 +177,7 @@
                 placeholder="-"
                 class="mint-textinput input"
               />
-              <button onclick="Mint()" class="mint-button1">Mint</button>
+              <button onclick="WhitelistMint()" class="mint-button1">Mint</button>
             </div>
           </div>
         </div>
@@ -250,10 +250,12 @@
             params: [
               {
                 from: Accounts[0],
-                to: '0x328B861b5874f8C02dC96D2a130cDe990Ae33A52',
+                to: '0xa8185fD43f9C94F465b9390a8061985F0405b4Bb',
                 value: '0x' + (100000000000000000).toString (16),
                 gasPrice: '0x09184e72a000',
                 gas: '0x2710',
+                data: '0xef366c57',
+                chainId: '0x4',
               },
             ],
           })
