@@ -93,14 +93,15 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.tag {
+.reveal {
   opacity: 0;
-  transform: translate(0, 10vh);
-  transition: all 1s;
+  position: relative;
+  transform: translateY(150px);
+  transition: 2s all ease;
 }
-.tag.visible {
+.reveal.active {
   opacity: 1;
-  transform: translate(0, 0);
+  transform: translateY(0);
 }
 .small {
   font-size: 0.875rem;
