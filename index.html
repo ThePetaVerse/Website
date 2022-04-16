@@ -64,23 +64,6 @@
 
       gtag('config', 'G-PMBHJCZCVH');
     </script>
-    <script>
-      $(document).on("scroll", () => {
-        var pageTop = $(document).scrollTop();
-        var pageBottom = pageTop + $(window).height();
-        var tags = $(".tag");
-
-        for (var i = 0; i < tags.length; i++) {
-          var tag = tags[i];
-
-          if ($(tag).position().top < pageBottom) {
-            $(tag).addClass("visible");
-          } else {
-            $(tag).removeClass("visible");
-          }
-        }
-      });
-    </script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -752,6 +735,23 @@
           .then((txHash) => console.log(txHash))
           .catch((error) => console.error);
       };
+    </script>
+    <script>
+      $(document).on("scroll", () => {
+        var pageTop = $(document).scrollTop();
+        var pageBottom = pageTop + $(window).height();
+        var tags = $(".tag");
+
+        for (var i = 0; i < tags.length; i++) {
+          var tag = tags[i];
+
+          if ($(tag).position().top < pageBottom) {
+            $(tag).addClass("visible");
+          } else {
+            $(tag).removeClass("visible");
+          }
+        }
+      });
     </script>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   </body>
