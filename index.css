@@ -310,7 +310,6 @@
 }
 .index-w-header-1 {
   width: 278px;
-  text-align: left;
   background-image: linear-gradient(310deg,#7928ca,#ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -318,7 +317,6 @@
 .index-w-header2 {
   color: var(--dl-color-secondary-700);
   margin-top: var(--dl-space-space-unit);
-  text-align: center;
   margin-bottom: 16px;
 }
 .index-w-main {
@@ -794,6 +792,7 @@
 .index-tech {
   flex: 0 0 auto;
   width: 100%;
+  height: 100%;
   display: flex;
   position: relative;
   align-items: center;
@@ -803,9 +802,13 @@
 .index-t-container {
   flex: 0 0 auto;
   width: 100%;
+  height: 100%;
   display: flex;
   z-index: 1;
-  max-width: 1320px;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
   align-items: flex-start;
   padding-top: 15rem;
   padding-left: var(--dl-space-space-tripleunit);
@@ -814,9 +817,21 @@
   padding-bottom: 15rem;
   justify-content: space-between;
 }
+.index-container14 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .index-t-text {
+  width: 100%;
+  height: 100%;
   display: flex;
   max-width: 600px;
+  max-height: 100%;
+  min-height: 100%;
   align-items: flex-start;
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -847,7 +862,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.index-container14 {
+.index-container15 {
   flex: 0 0 auto;
   display: flex;
   min-width: 400px;
@@ -855,7 +870,7 @@
   padding-left: var(--dl-space-space-triplequarterunit);
   flex-direction: column;
 }
-.index-container15 {
+.index-container16 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -865,7 +880,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.index-container16 {
+.index-container17 {
   width: 58px;
   height: 58px;
   padding: var(--dl-space-space-unit);
@@ -878,7 +893,7 @@
 .index-image06 {
   width: 100%;
 }
-.index-container17 {
+.index-container18 {
   width: 58px;
   height: 58px;
   padding: var(--dl-space-space-unit);
@@ -889,7 +904,7 @@
 .index-image07 {
   width: 100%;
 }
-.index-container18 {
+.index-container19 {
   width: 58px;
   height: 58px;
   padding: var(--dl-space-space-unit);
@@ -902,7 +917,7 @@
 .index-image08 {
   width: 100%;
 }
-.index-container19 {
+.index-container20 {
   flex: 0 0 auto;
   width: 100%;
   height: 70px;
@@ -912,7 +927,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.index-container20 {
+.index-container21 {
   width: 58px;
   height: 58px;
   padding: var(--dl-space-space-unit);
@@ -924,7 +939,7 @@
   width: 100%;
   object-fit: cover;
 }
-.index-container21 {
+.index-container22 {
   width: 58px;
   height: 58px;
   padding: var(--dl-space-space-unit);
@@ -936,7 +951,7 @@
 .index-image10 {
   width: 100%;
 }
-.index-container22 {
+.index-container23 {
   width: 58px;
   padding: var(--dl-space-space-unit);
   align-self: flex-end;
@@ -947,7 +962,7 @@
 .index-image11 {
   width: 100%;
 }
-.index-container23 {
+.index-container24 {
   flex: 0 0 auto;
   width: 50%;
   height: 70px;
@@ -957,7 +972,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.index-container24 {
+.index-container25 {
   width: 58px;
   height: 58px;
   padding: var(--dl-space-space-unit);
@@ -968,7 +983,7 @@
 .index-image12 {
   width: 100%;
 }
-.index-container25 {
+.index-container26 {
   width: 58px;
   height: 58px;
   padding: var(--dl-space-space-unit);
@@ -1484,9 +1499,29 @@
   .index-welcome {
     padding: var(--dl-space-space-unit);
   }
+  .index-w-header-1 {
+    width: 100%;
+    text-align: center;
+  }
+  .index-w-header2 {
+    width: 100%;
+    text-align: center;
+  }
+  .index-w-main {
+    width: 100%;
+    align-self: flex-start;
+    text-align: center;
+  }
   .index-w-buttons {
+    width: 100%;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
+  }
+  .index-navlink09 {
+    top: 0px;
+    left: var(--dl-space-space-sixunits);
+    right: 0px;
+    position: absolute;
   }
   .index-features {
     width: 100%;
