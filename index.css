@@ -279,8 +279,6 @@
   width: 100%;
   display: flex;
   max-width: 1320px;
-  padding-left: var(--dl-space-space-unitandahalfunit);
-  padding-right: var(--dl-space-space-unitandahalfunit);
   justify-content: center;
 }
 .index-t-o-p-main {
@@ -1495,6 +1493,12 @@
   }
   .index-t-o-p1 {
     padding-top: 28px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .index-t-o-p-main {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .index-welcome {
     padding: var(--dl-space-space-unit);
@@ -1516,12 +1520,6 @@
     width: 100%;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
-  }
-  .index-navlink09 {
-    top: 0px;
-    left: var(--dl-space-space-sixunits);
-    right: 0px;
-    position: absolute;
   }
   .index-features {
     width: 100%;
@@ -1553,7 +1551,7 @@
     display: none;
   }
   .index-r-image {
-    width: 433px;
+    width: 100%;
     height: 199px;
   }
   .index-r-main {
@@ -1579,6 +1577,8 @@
   .index-t-text {
     width: 478px;
     margin-right: 0px;
+    padding-left: 31px;
+    padding-right: 32px;
   }
   .index-text79 {
     text-align: center;
