@@ -807,11 +807,11 @@
   z-index: 1;
   max-width: 1320px;
   align-items: flex-start;
-  padding-top: 120px;
+  padding-top: 15rem;
   padding-left: var(--dl-space-space-tripleunit);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: row;
-  padding-bottom: 120px;
+  padding-bottom: 15rem;
   justify-content: space-between;
 }
 .index-t-text {
@@ -1319,7 +1319,7 @@
     position: relative;
   }
   .index-r-text {
-    margin-left: 0px;
+    width: 429px;
   }
   .index-text22 {
     width: 90%;
@@ -1335,13 +1335,9 @@
     justify-content: center;
   }
   .index-t-text {
-    height: 434px;
     align-self: center;
-    margin-top: 0px;
     align-items: center;
-    padding-top: var(--dl-space-space-doubleunit);
     margin-right: var(--dl-space-space-twelveunits);
-    margin-bottom: var(--dl-space-space-twelveunits);
     justify-content: flex-start;
   }
   .index-t-image {
