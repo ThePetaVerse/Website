@@ -395,7 +395,7 @@
             </div>
             <img
               alt="image"
-              src="public/playground_assets/petaverselogo2-200h-200h.jpg"
+              src="420a047d-2faf-4da4-84fe-85c74978ed14"
               class="footer-image"
             />
             <div class="footer-container2">
@@ -489,26 +489,6 @@
           .then((txHash) => console.log(txHash))
           .catch((error) => console.error);
       };
-    </script>
-    <script>
-      function reveal() {
-        var reveals = document.querySelectorAll(".reveal");
-        for (var i = 0; i < reveals.length; i++) {
-          var windowHeight = window.innerHeight;
-          var elementTop = reveals[i].getBoundingClientRect().top;
-          var elementVisible = 150;
-          if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
-          } else {
-            reveals[i].classList.remove("active");
-          }
-        }
-      }
-
-      window.addEventListener("scroll", reveal());
-
-      // To check the scroll position on page load
-      reveal();
     </script>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   </body>
