@@ -404,6 +404,13 @@
   text-transform: none;
   text-decoration: none;
 }
+.whitelist-mint-text21 {
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(310deg,#7928ca,#ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media(max-width: 991px) {
   .whitelist-mint-nav {
     max-width: 960px;
@@ -439,5 +446,9 @@
 @media(max-width: 479px) {
   .whitelist-mint-container3 {
     display: none;
+  }
+  .whitelist-mint-text21 {
+    width: 100%;
+    text-align: center;
   }
 }
