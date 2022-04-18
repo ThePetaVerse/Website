@@ -6,6 +6,7 @@
     <meta property="og:title" content="Soft UI Pro" />
     <meta property="og:title" content="Profile - Soft UI Pro" />
     <meta property="og:title" content="Mint - Soft UI Pro" />
+    <meta property="og:title" content="ExploreKennels - Soft UI Pro" />
     <meta property="og:title" content="Whitelist Mint - Soft UI Pro" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -81,7 +82,9 @@
                 <a href="https://thepetaverse.io" class="index-link1 large">
                   Home
                 </a>
-                <a href="profile.html" class="index-navlink large">The Team</a>
+                <a href="explore-kennels.html" class="index-navlink large">
+                  Explore the Kennels
+                </a>
                 <a href="#roadmap" class="index-link2 large">Roadmap</a>
               </div>
               <div class="index-container02">
@@ -648,11 +651,11 @@
           let Knumber = document.getElementById("kennelnumber").value;
           let Text;
           if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
-              Text = "Invalid";
+              Text = "Are your trying to prank me ??";
           } else {
-              Text = "Valid";
+              Text = "Ready to stalk";
           }
-          document.getElementById("test").innerHTML = Text;
+          document.getElementById("feedback").innerHTML = Text;
       }
 
       let Accounts = [];

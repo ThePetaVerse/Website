@@ -4,6 +4,7 @@
   <head>
     <title>Mint - Soft UI Pro</title>
     <meta property="og:title" content="Mint - Soft UI Pro" />
+    <meta property="og:title" content="ExploreKennels - Soft UI Pro" />
     <meta property="og:title" content="Whitelist Mint - Soft UI Pro" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -79,8 +80,12 @@
                 <a href="https://thepetaverse.io" class="mint-link1 large">
                   Home
                 </a>
-                <a href="profile.html" class="mint-navlink large">The Team</a>
-                <a href="mint.html" class="mint-navlink1 large">Roadmap</a>
+                <a href="explore-kennels.html" class="mint-navlink large">
+                  <span>Explore the Kennels</span>
+                </a>
+                <a href="whitelist-mint.html" class="mint-navlink1 large">
+                  <span>Whitelist Mint</span>
+                </a>
               </div>
               <div class="mint-container2">
                 <div class="mint-container3"></div>
@@ -127,14 +132,14 @@
           <div class="mint-main">
             <div class="mint-container5">
               <div class="mint-container6">
-                <h1 class="mint-text01 headingOne">Mint</h1>
+                <h1 class="mint-text03 headingOne">Mint</h1>
                 <div class="mint-container7">
                   <button onclick="GetAccount()" class="mint-button">
                     Connect Wallet
                   </button>
                 </div>
               </div>
-              <h2 class="mint-text02 headingThree">
+              <h2 class="mint-text04 headingThree">
                 <span>
                   The Mint page is online whip it into your favourites tab and
                   strap the bags in for liftoff.
@@ -143,7 +148,7 @@
                 <span></span>
                 <span></span>
               </h2>
-              <span class="mint-text06 lead">
+              <span class="mint-text08 lead">
                 <span></span>
                 <span>T minus 3</span>
                 <br />
@@ -168,7 +173,7 @@
                 <span>
                   Confirm in MetaMask and watch your bags set off for the moon
                 </span>
-                <span class="mint-text19"></span>
+                <span class="mint-text21"></span>
               </span>
               <input
                 type="number"
@@ -183,7 +188,7 @@
             </div>
           </div>
         </div>
-        <span class="mint-text20 headingOne">
+        <span class="mint-text22 headingOne">
           <span>It&apos;s written on the can go for it</span>
         </span>
         <footer class="footer1-footer">
@@ -207,11 +212,11 @@
           let Knumber = document.getElementById("kennelnumber").value;
           let Text;
           if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
-              Text = "Invalid";
+              Text = "Are your trying to prank me ??";
           } else {
-              Text = "Valid";
+              Text = "Ready to stalk";
           }
-          document.getElementById("test").innerHTML = Text;
+          document.getElementById("feedback").innerHTML = Text;
       }
 
       let Accounts = [];
