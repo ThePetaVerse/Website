@@ -1,3 +1,25 @@
+.primary-pink-button-container {
+  display: flex;
+  position: relative;
+}
+.primary-pink-button-button {
+  color: var(--dl-color-gray-white);
+  outline: none;
+  background:  linear-gradient( 310deg ,#7928ca,#ff0080);
+  box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
+  transition: all .15s ease-in;
+  padding-top: var(--dl-space-space-triplequarterunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unitandahalfunit);
+  border-radius: 1.875rem;
+  padding-right: var(--dl-space-space-unitandahalfunit);
+  padding-bottom: var(--dl-space-space-triplequarterunit);
+}
+.primary-pink-button-button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
 .footer1-footer {
   width: 100%;
   height: auto;
@@ -43,7 +65,7 @@
   }
 }
 
-.mint-container {
+.explorethe-kennels-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -53,7 +75,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-900);
 }
-.mint-header {
+.explorethe-kennels-header {
   top: 0px;
   left: auto;
   right: auto;
@@ -67,7 +89,7 @@
   padding-right: var(--dl-space-space-unitandahalfunit);
   justify-content: center;
 }
-.mint-nav {
+.explorethe-kennels-nav {
   flex: 0 0 auto;
   color: var(--dl-color-secondary-600);
   width: 100%;
@@ -88,7 +110,7 @@
   justify-content: center;
   background-color: hsla(0,0%,100%,.8)!important;
 }
-.mint-container1 {
+.explorethe-kennels-container1 {
   top: 19px;
   left: 24px;
   color: var(--dl-color-gray-black);
@@ -100,14 +122,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.mint-link {
+.explorethe-kennels-link {
   color: var(--dl-color-secondary-700);
   font-weight: 600;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.mint-menu {
+.explorethe-kennels-menu {
   top: -7px;
   flex: 0 0 auto;
   left: 397px;
@@ -116,7 +138,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.mint-link1 {
+.explorethe-kennels-link1 {
   margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
@@ -124,10 +146,10 @@
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.mint-link1:hover {
+.explorethe-kennels-link1:hover {
   color: var(--dl-color-gray-500);
 }
-.mint-navlink {
+.explorethe-kennels-navlink {
   margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
@@ -135,10 +157,10 @@
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.mint-navlink:hover {
+.explorethe-kennels-navlink:hover {
   color: var(--dl-color-gray-500);
 }
-.mint-navlink1 {
+.explorethe-kennels-navlink1 {
   margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
@@ -146,27 +168,34 @@
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.mint-navlink1:hover {
+.explorethe-kennels-navlink1:hover {
   color: var(--dl-color-gray-500);
 }
-.mint-container2 {
+.explorethe-kennels-container2 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.mint-burger-menu {
+.explorethe-kennels-container3 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.explorethe-kennels-burger-menu {
   display: none;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.mint-icon {
+.explorethe-kennels-icon {
   width: 24px;
   height: 24px;
   margin-left: var(--dl-space-space-unit);
 }
-.mint-mobile-menu {
+.explorethe-kennels-mobile-menu {
   top: 0px;
   flex: 0 0 auto;
   left: 0px;
@@ -180,7 +209,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
 }
-.mint-top {
+.explorethe-kennels-top {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -189,22 +218,22 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.mint-link2 {
+.explorethe-kennels-navlink2 {
   color: var(--dl-color-secondary-700);
   font-weight: 600;
   text-decoration: none;
 }
-.mint-close-menu {
+.explorethe-kennels-close-menu {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.mint-icon2 {
+.explorethe-kennels-icon2 {
   width: 24px;
   height: 24px;
 }
-.mint-mid {
+.explorethe-kennels-mid {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -213,37 +242,43 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.mint-menu1 {
+.explorethe-kennels-menu1 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.mint-link3 {
+.explorethe-kennels-link2 {
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.mint-link3:hover {
+.explorethe-kennels-link2:hover {
   color: var(--dl-color-gray-500);
 }
-.mint-navlink2 {
+.explorethe-kennels-navlink3 {
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.mint-navlink2:hover {
+.explorethe-kennels-navlink3:hover {
   color: var(--dl-color-gray-500);
 }
-.mint-navlink3 {
+.explorethe-kennels-navlink4 {
   transition: 0.3s;
   text-decoration: none;
 }
-.mint-navlink3:hover {
+.explorethe-kennels-navlink4:hover {
   color: var(--dl-color-gray-500);
 }
-.mint-container3 {
+.explorethe-kennels-bot {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: auto;
+  flex-direction: column;
+}
+.explorethe-kennels-container4 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -253,7 +288,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.mint-main {
+.explorethe-kennels-main {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -268,7 +303,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.mint-container4 {
+.explorethe-kennels-container5 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -279,7 +314,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.mint-container5 {
+.explorethe-kennels-container6 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -287,72 +322,33 @@
   align-items: flex-start;
   margin-bottom: 5px;
 }
-.mint-text02 {
+.explorethe-kennels-text01 {
   width: 100%;
   height: 100%;
   font-size: 3rem;
   text-align: center;
-  margin-left: 195px;
   background-image: linear-gradient(310deg,#7928ca,#ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.mint-container6 {
-  width: 161px;
-  height: 63px;
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-right: 23px;
-  justify-content: center;
-}
-.mint-button {
-  color: var(--dl-color-gray-white);
-  width: 1103px;
-  height: 100%;
-  outline: none;
-  font-size: 1rem;
-  align-self: center;
-  background:  linear-gradient( 310deg ,#7928ca,#ff0080);
-  box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
-  font-style: italic;
-  text-align: center;
-  transition: all .15s ease-in;
-  font-family: Open Sans;
-  font-weight: 600;
-  line-height: 1.625;
-  padding-top: 17px;
-  border-width: 0px;
-  padding-left: var(--dl-space-space-unitandahalfunit);
-  border-radius: 1.875rem;
-  padding-right: var(--dl-space-space-unitandahalfunit);
-  letter-spacing: -0.025rem;
-  padding-bottom: var(--dl-space-space-triplequarterunit);
-  text-transform: none;
-  text-decoration: none;
-}
-.mint-text03 {
+.explorethe-kennels-text02 {
   width: 100%;
   height: 100%;
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.mint-text07 {
+.explorethe-kennels-text04 {
   width: 100%;
   height: 100%;
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.mint-text20 {
-  text-align: center;
-}
-.mint-textinput {
+.explorethe-kennels-textinput {
   width: 81px;
   height: 42px;
   margin-bottom: 14px;
 }
-.mint-button1 {
+.explorethe-kennels-button {
   color: var(--dl-color-gray-white);
   width: 239px;
   height: 100%;
@@ -378,27 +374,85 @@
   text-transform: none;
   text-decoration: none;
 }
-.mint-text21 {
+.explorethe-kennels-kennel-main-picture {
+  flex: 0 0 auto;
   width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.explorethe-kennels-text07 {
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  align-self: center;
   text-align: center;
   background-image: linear-gradient(310deg,#7928ca,#ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.explorethe-kennels-container7 {
+  flex: 0 0 auto;
+  width: 1181px;
+  height: 298px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.explorethe-kennels-image {
+  width: 155px;
+  height: 136px;
+  object-fit: cover;
+  margin-left: 698px;
+}
+.explorethe-kennels-kennel-picture {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.explorethe-kennels-text10 {
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  text-align: center;
+  background-image: linear-gradient(310deg,#7928ca,#ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.explorethe-kennels-image1 {
+  width: 100%;
+  height: 298px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.explorethe-kennels-image2 {
+  width: 100%;
+  height: 298px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
 @media(max-width: 991px) {
-  .mint-nav {
+  .explorethe-kennels-nav {
     max-width: 960px;
   }
-  .mint-menu {
+  .explorethe-kennels-menu {
     display: none;
   }
-  .mint-container3 {
+  .explorethe-kennels-container4 {
     background-size: auto;
   }
-  .mint-main {
+  .explorethe-kennels-main {
     justify-content: flex-start;
   }
-  .mint-container4 {
+  .explorethe-kennels-container5 {
     width: 70%;
     align-self: flex-start;
     margin-top: 0px;
@@ -410,24 +464,15 @@
   }
 }
 @media(max-width: 767px) {
-  .mint-burger-menu {
+  .explorethe-kennels-burger-menu {
     display: flex;
   }
-  .mint-container4 {
+  .explorethe-kennels-container5 {
     width: 100%;
   }
 }
 @media(max-width: 479px) {
-  .mint-header {
-    max-width: 100%;
-    min-width: 100%;
-  }
-  .mint-nav {
-    max-width: 100%;
-    min-width: 100%;
-  }
-  .mint-text21 {
-    width: 100%;
-    text-align: center;
+  .explorethe-kennels-container3 {
+    display: none;
   }
 }

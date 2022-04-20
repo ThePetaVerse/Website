@@ -1,25 +1,3 @@
-.primary-pink-button-container {
-  display: flex;
-  position: relative;
-}
-.primary-pink-button-button {
-  color: var(--dl-color-gray-white);
-  outline: none;
-  background:  linear-gradient( 310deg ,#7928ca,#ff0080);
-  box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
-  transition: all .15s ease-in;
-  padding-top: var(--dl-space-space-triplequarterunit);
-  border-width: 0px;
-  padding-left: var(--dl-space-space-unitandahalfunit);
-  border-radius: 1.875rem;
-  padding-right: var(--dl-space-space-unitandahalfunit);
-  padding-bottom: var(--dl-space-space-triplequarterunit);
-}
-.primary-pink-button-button:hover {
-  cursor: pointer;
-  transform: scale(1.02);
-}
-
 .footer1-footer {
   width: 100%;
   height: auto;
@@ -53,6 +31,7 @@
   position: absolute;
   object-fit: cover;
 }
+
 @media(max-width: 991px) {
   .footer1-container {
     padding: var(--dl-space-space-doubleunit);
@@ -176,13 +155,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.whitelist-mint-container3 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .whitelist-mint-burger-menu {
   display: none;
   align-items: center;
@@ -217,7 +189,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.whitelist-mint-navlink2 {
+.whitelist-mint-link2 {
   color: var(--dl-color-secondary-700);
   font-weight: 600;
   text-decoration: none;
@@ -248,36 +220,30 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.whitelist-mint-navlink3 {
+.whitelist-mint-link3 {
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.whitelist-mint-link3:hover {
+  color: var(--dl-color-gray-500);
+}
+.whitelist-mint-navlink2 {
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.whitelist-mint-navlink2:hover {
+  color: var(--dl-color-gray-500);
+}
+.whitelist-mint-navlink3 {
+  transition: 0.3s;
   text-decoration: none;
 }
 .whitelist-mint-navlink3:hover {
   color: var(--dl-color-gray-500);
 }
-.whitelist-mint-navlink4 {
-  transition: 0.3s;
-  margin-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
-}
-.whitelist-mint-navlink4:hover {
-  color: var(--dl-color-gray-500);
-}
-.whitelist-mint-navlink5 {
-  transition: 0.3s;
-  text-decoration: none;
-}
-.whitelist-mint-navlink5:hover {
-  color: var(--dl-color-gray-500);
-}
-.whitelist-mint-bot {
-  flex: 0 0 auto;
-  display: flex;
-  margin-top: auto;
-  flex-direction: column;
-}
-.whitelist-mint-container4 {
+.whitelist-mint-container3 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -302,7 +268,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.whitelist-mint-container5 {
+.whitelist-mint-container4 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -313,7 +279,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.whitelist-mint-container6 {
+.whitelist-mint-container5 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -331,7 +297,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.whitelist-mint-container7 {
+.whitelist-mint-container6 {
   width: 161px;
   height: 63px;
   display: flex;
@@ -418,13 +384,13 @@
   .whitelist-mint-menu {
     display: none;
   }
-  .whitelist-mint-container4 {
+  .whitelist-mint-container3 {
     background-size: auto;
   }
   .whitelist-mint-main {
     justify-content: flex-start;
   }
-  .whitelist-mint-container5 {
+  .whitelist-mint-container4 {
     width: 70%;
     align-self: flex-start;
     margin-top: 0px;
@@ -439,13 +405,18 @@
   .whitelist-mint-burger-menu {
     display: flex;
   }
-  .whitelist-mint-container5 {
+  .whitelist-mint-container4 {
     width: 100%;
   }
 }
 @media(max-width: 479px) {
-  .whitelist-mint-container3 {
-    display: none;
+  .whitelist-mint-header {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .whitelist-mint-nav {
+    max-width: 100%;
+    min-width: 100%;
   }
   .whitelist-mint-text21 {
     width: 100%;
