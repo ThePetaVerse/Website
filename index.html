@@ -464,7 +464,7 @@
                 </p>
                 <img
                   alt="image"
-                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  src="public/playground_assets/9-300h-300h.png"
                   class="index-image04"
                 />
               </div>
@@ -708,7 +708,7 @@
             Text = "Nice ;)";
             KennelPortrait.src = "public/playground_assets/tick.png";
           }
-          else if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
+          else if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999 || Knumber % 1 != 0) {
             Text = "Are your trying to prank me ??";
             KennelPortrait.src = "public/playground_assets/cross.png";
           } else {

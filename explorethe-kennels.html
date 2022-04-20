@@ -276,7 +276,7 @@
             Text = "Nice ;)";
             KennelPortrait.src = "public/playground_assets/tick.png";
           }
-          else if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
+          else if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999 || Knumber % 1 != 0) {
             Text = "Are your trying to prank me ??";
             KennelPortrait.src = "public/playground_assets/cross.png";
           } else {

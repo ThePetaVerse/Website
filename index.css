@@ -751,9 +751,10 @@
   opacity: 0.8;
 }
 .index-image04 {
-  width: 75px;
-  height: 75px;
+  width: 45px;
+  height: 45px;
   object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius75);
 }
 .index-t-image {
   display: flex;
