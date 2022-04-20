@@ -286,13 +286,14 @@
   display: flex;
   align-items: flex-start;
   margin-bottom: 5px;
+  justify-content: center;
 }
 .whitelist-mint-text01 {
   width: 100%;
   height: 100%;
   font-size: 3rem;
   text-align: center;
-  margin-left: 195px;
+  margin-left: 183px;
   background-image: linear-gradient(310deg,#7928ca,#ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -391,7 +392,7 @@
     justify-content: flex-start;
   }
   .whitelist-mint-container4 {
-    width: 70%;
+    width: 100%;
     align-self: flex-start;
     margin-top: 0px;
     margin-left: 0px;
@@ -408,6 +409,18 @@
   .whitelist-mint-container4 {
     width: 100%;
   }
+  .whitelist-mint-text01 {
+    margin-left: 0px;
+  }
+  .whitelist-mint-container6 {
+    display: none;
+  }
+  .whitelist-mint-button1 {
+    display: none;
+  }
+  .whitelist-mint-text21 {
+    display: none;
+  }
 }
 @media(max-width: 479px) {
   .whitelist-mint-header {
@@ -417,6 +430,19 @@
   .whitelist-mint-nav {
     max-width: 100%;
     min-width: 100%;
+  }
+  .whitelist-mint-container4 {
+    align-items: center;
+  }
+  .whitelist-mint-container5 {
+    align-self: center;
+    justify-content: center;
+  }
+  .whitelist-mint-container6 {
+    display: none;
+  }
+  .whitelist-mint-button {
+    display: flex;
   }
   .whitelist-mint-text21 {
     width: 100%;

@@ -470,9 +470,25 @@
   .the-kennelsinfo-container5 {
     width: 100%;
   }
+  .the-kennelsinfo-container7 {
+    width: 745px;
+    height: 225px;
+  }
+  .the-kennelsinfo-image {
+    margin-left: 471px;
+  }
 }
 @media(max-width: 479px) {
   .the-kennelsinfo-container3 {
     display: none;
+  }
+  .the-kennelsinfo-container7 {
+    width: 460px;
+    height: 190px;
+  }
+  .the-kennelsinfo-image {
+    width: 95px;
+    height: 50%;
+    margin-left: 246px;
   }
 }

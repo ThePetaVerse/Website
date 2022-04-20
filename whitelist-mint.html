@@ -239,12 +239,16 @@
           let Knumber = document.getElementById("kennelnumber").value;
           let KennelPortrait = document.getElementById("portrait");
           let Text;
-          if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
-              Text = "Are your trying to prank me ??";
-              KennelPortrait.src = "public/playground_assets/cross.png";
+          if(Knumber == 69 || Knumber == 420) {
+            Text = "Nice ;)";
+            KennelPortrait.src = "public/playground_assets/tick.png";
+          }
+          else if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
+            Text = "Are your trying to prank me ??";
+            KennelPortrait.src = "public/playground_assets/cross.png";
           } else {
-              Text = "Ready to stalk";
-              KennelPortrait.src = "public/playground_assets/tick.png";
+            Text = "Ready to stalk";
+            KennelPortrait.src = "public/playground_assets/tick.png";
           }
           document.getElementById("feedback").innerHTML = Text;
       }

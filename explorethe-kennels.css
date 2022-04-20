@@ -450,7 +450,7 @@
     background-size: auto;
   }
   .explorethe-kennels-main {
-    justify-content: flex-start;
+    justify-content: center;
   }
   .explorethe-kennels-container5 {
     width: 70%;
@@ -462,6 +462,15 @@
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-tripleunit);
   }
+  .explorethe-kennels-container7 {
+    width: 940px;
+    height: 276px;
+  }
+  .explorethe-kennels-image {
+    width: 103px;
+    height: 50%;
+    margin-left: 681px;
+  }
 }
 @media(max-width: 767px) {
   .explorethe-kennels-burger-menu {
@@ -470,9 +479,25 @@
   .explorethe-kennels-container5 {
     width: 100%;
   }
+  .explorethe-kennels-container7 {
+    width: 743px;
+    height: 241px;
+  }
+  .explorethe-kennels-image {
+    width: 107px;
+    height: 50%;
+    margin-left: 432px;
+  }
 }
 @media(max-width: 479px) {
   .explorethe-kennels-container3 {
     display: none;
+  }
+  .explorethe-kennels-container7 {
+    width: 467px;
+    height: 226px;
+  }
+  .explorethe-kennels-image {
+    margin-left: 287px;
   }
 }
