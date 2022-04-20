@@ -222,11 +222,14 @@
     <script>
       function KennelSearch() {
           let Knumber = document.getElementById("kennelnumber").value;
+          let KennelPortrait = document.getElementById("portrait");
           let Text;
           if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
               Text = "Are your trying to prank me ??";
+              KennelPortrait.src = "public/playground_assets/tick.png";
           } else {
               Text = "Ready to stalk";
+              KennelPortrait.src = "public/playground_assets/cross.png";
           }
           document.getElementById("feedback").innerHTML = Text;
       }

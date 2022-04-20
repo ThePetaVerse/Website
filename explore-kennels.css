@@ -378,21 +378,30 @@
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 .explore-kennels-text07 {
   width: 100%;
   height: 100%;
   font-size: 3rem;
+  align-self: center;
   text-align: center;
   background-image: linear-gradient(310deg,#7928ca,#ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .explore-kennels-image {
-  width: 100%;
+  width: 1181px;
   height: 298px;
+  object-fit: cover;
+}
+.explore-kennels-image1 {
+  top: 559px;
+  left: 855px;
+  width: 155px;
+  height: 136px;
+  position: absolute;
   object-fit: cover;
 }
 .explore-kennels-kennel-picture {
@@ -412,13 +421,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.explore-kennels-image1 {
+.explore-kennels-image2 {
   width: 100%;
   height: 298px;
   object-fit: cover;
   margin-bottom: 15px;
 }
-.explore-kennels-image2 {
+.explore-kennels-image3 {
   width: 100%;
   height: 298px;
   object-fit: cover;

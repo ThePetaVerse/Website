@@ -187,6 +187,12 @@
             class="explore-kennels-image"
           />
         </div>
+        <img
+          id="portrait"
+          alt="image"
+          src="https://play.teleporthq.io/static/svg/default-img.svg"
+          class="explore-kennels-image1"
+        />
         <div class="explore-kennels-kennel-picture">
           <h1 class="explore-kennels-text10 headingOne">
             <span>Internal view</span>
@@ -195,12 +201,12 @@
           <img
             alt="image"
             src="https://play.teleporthq.io/static/svg/default-img.svg"
-            class="explore-kennels-image1"
+            class="explore-kennels-image2"
           />
           <img
             alt="image"
             src="https://play.teleporthq.io/static/svg/default-img.svg"
-            class="explore-kennels-image2"
+            class="explore-kennels-image3"
           />
         </div>
         <footer class="footer1-footer">
@@ -222,11 +228,14 @@
     <script>
       function KennelSearch() {
           let Knumber = document.getElementById("kennelnumber").value;
+          let KennelPortrait = document.getElementById("portrait");
           let Text;
           if (Number(Knumber) == false || Knumber < 0 || Knumber > 9999) {
               Text = "Are your trying to prank me ??";
+              KennelPortrait.src = "public/playground_assets/tick.png";
           } else {
               Text = "Ready to stalk";
+              KennelPortrait.src = "public/playground_assets/cross.png";
           }
           document.getElementById("feedback").innerHTML = Text;
       }
