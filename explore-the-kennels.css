@@ -65,7 +65,7 @@
   }
 }
 
-.the-kennelsinfo-container {
+.explore-the-kennels-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -75,7 +75,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-900);
 }
-.the-kennelsinfo-header {
+.explore-the-kennels-header {
   top: 0px;
   left: auto;
   right: auto;
@@ -89,7 +89,7 @@
   padding-right: var(--dl-space-space-unitandahalfunit);
   justify-content: center;
 }
-.the-kennelsinfo-nav {
+.explore-the-kennels-nav {
   flex: 0 0 auto;
   color: var(--dl-color-secondary-600);
   width: 100%;
@@ -110,7 +110,7 @@
   justify-content: center;
   background-color: hsla(0,0%,100%,.8)!important;
 }
-.the-kennelsinfo-container1 {
+.explore-the-kennels-container1 {
   top: 19px;
   left: 24px;
   color: var(--dl-color-gray-black);
@@ -122,14 +122,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.the-kennelsinfo-link {
+.explore-the-kennels-link {
   color: var(--dl-color-secondary-700);
   font-weight: 600;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.the-kennelsinfo-menu {
+.explore-the-kennels-menu {
   top: -7px;
   flex: 0 0 auto;
   left: 397px;
@@ -138,7 +138,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.the-kennelsinfo-link1 {
+.explore-the-kennels-link1 {
   margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
@@ -146,10 +146,10 @@
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.the-kennelsinfo-link1:hover {
+.explore-the-kennels-link1:hover {
   color: var(--dl-color-gray-500);
 }
-.the-kennelsinfo-navlink {
+.explore-the-kennels-navlink {
   margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
@@ -157,10 +157,10 @@
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.the-kennelsinfo-navlink:hover {
+.explore-the-kennels-navlink:hover {
   color: var(--dl-color-gray-500);
 }
-.the-kennelsinfo-navlink1 {
+.explore-the-kennels-navlink1 {
   margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
@@ -168,27 +168,34 @@
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.the-kennelsinfo-navlink1:hover {
+.explore-the-kennels-navlink1:hover {
   color: var(--dl-color-gray-500);
 }
-.the-kennelsinfo-container2 {
+.explore-the-kennels-container2 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.the-kennelsinfo-burger-menu {
+.explore-the-kennels-container3 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.explore-the-kennels-burger-menu {
   display: none;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.the-kennelsinfo-icon {
+.explore-the-kennels-icon {
   width: 24px;
   height: 24px;
   margin-left: var(--dl-space-space-unit);
 }
-.the-kennelsinfo-mobile-menu {
+.explore-the-kennels-mobile-menu {
   top: 0px;
   flex: 0 0 auto;
   left: 0px;
@@ -202,7 +209,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
 }
-.the-kennelsinfo-top {
+.explore-the-kennels-top {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -211,22 +218,22 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.the-kennelsinfo-navlink2 {
+.explore-the-kennels-navlink2 {
   color: var(--dl-color-secondary-700);
   font-weight: 600;
   text-decoration: none;
 }
-.the-kennelsinfo-close-menu {
+.explore-the-kennels-close-menu {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.the-kennelsinfo-icon2 {
+.explore-the-kennels-icon2 {
   width: 24px;
   height: 24px;
 }
-.the-kennelsinfo-mid {
+.explore-the-kennels-mid {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -235,74 +242,53 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.the-kennelsinfo-menu1 {
+.explore-the-kennels-menu1 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.the-kennelsinfo-link2 {
+.explore-the-kennels-link2 {
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.the-kennelsinfo-link2:hover {
+.explore-the-kennels-link2:hover {
   color: var(--dl-color-gray-500);
 }
-.the-kennelsinfo-navlink3 {
+.explore-the-kennels-navlink3 {
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.the-kennelsinfo-navlink3:hover {
+.explore-the-kennels-navlink3:hover {
   color: var(--dl-color-gray-500);
 }
-.the-kennelsinfo-navlink4 {
+.explore-the-kennels-navlink4 {
   transition: 0.3s;
   text-decoration: none;
 }
-.the-kennelsinfo-navlink4:hover {
+.explore-the-kennels-navlink4:hover {
   color: var(--dl-color-gray-500);
 }
-.the-kennelsinfo-bot {
+.explore-the-kennels-bot {
   flex: 0 0 auto;
   display: flex;
   margin-top: auto;
   flex-direction: column;
 }
-.the-kennelsinfo-kennel-top-picture {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  margin-top: 90px;
-  align-items: center;
-  flex-direction: column;
-}
-.the-kennelsinfo-container3 {
-  flex: 0 0 auto;
-  width: 1181px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 298px;
-  display: flex;
-  align-items: center;
-  background-size: cover;
-  justify-content: center;
-  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.the-kennelsinfo-container4 {
+.explore-the-kennels-container4 {
   width: 100%;
   height: 100%;
   display: flex;
   overflow: hidden;
   align-items: center;
+  padding-top: 111px;
   flex-direction: column;
   justify-content: center;
 }
-.the-kennelsinfo-main {
+.explore-the-kennels-main {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -317,7 +303,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.the-kennelsinfo-container5 {
+.explore-the-kennels-container5 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -328,7 +314,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.the-kennelsinfo-container6 {
+.explore-the-kennels-container6 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -336,7 +322,7 @@
   align-items: flex-start;
   margin-bottom: 5px;
 }
-.the-kennelsinfo-text1 {
+.explore-the-kennels-text01 {
   width: 100%;
   height: 100%;
   font-size: 3rem;
@@ -345,32 +331,128 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.the-kennelsinfo-text2 {
+.explore-the-kennels-text02 {
   width: 100%;
   height: 100%;
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
+.explore-the-kennels-text04 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.explore-the-kennels-textinput {
+  width: 81px;
+  height: 42px;
+  margin-bottom: 14px;
+}
+.explore-the-kennels-button {
+  color: var(--dl-color-gray-white);
+  width: 239px;
+  height: 100%;
+  outline: none;
+  font-size: 1rem;
+  align-self: center;
+  background:  linear-gradient( 310deg ,#7928ca,#ff0080);
+  box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
+  font-style: italic;
+  text-align: center;
+  transition: all .15s ease-in;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 1.625;
+  padding-top: 17px;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unitandahalfunit);
+  border-radius: 1.875rem;
+  margin-bottom: 16px;
+  padding-right: var(--dl-space-space-unitandahalfunit);
+  letter-spacing: -0.025rem;
+  padding-bottom: var(--dl-space-space-triplequarterunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.explore-the-kennels-kennel-main-picture {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.explore-the-kennels-text07 {
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  align-self: center;
+  text-align: center;
+  background-image: linear-gradient(310deg,#7928ca,#ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.explore-the-kennels-container7 {
+  flex: 0 0 auto;
+  width: 1181px;
+  height: 298px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.explore-the-kennels-image {
+  width: 155px;
+  height: 136px;
+  object-fit: cover;
+  margin-left: 698px;
+}
+.explore-the-kennels-kennel-picture {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.explore-the-kennels-text10 {
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  text-align: center;
+  background-image: linear-gradient(310deg,#7928ca,#ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.explore-the-kennels-image1 {
+  width: 100%;
+  height: 298px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.explore-the-kennels-image2 {
+  width: 100%;
+  height: 298px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
 @media(max-width: 991px) {
-  .the-kennelsinfo-nav {
+  .explore-the-kennels-nav {
     max-width: 960px;
   }
-  .the-kennelsinfo-menu {
+  .explore-the-kennels-menu {
     display: none;
   }
-  .the-kennelsinfo-container3 {
-    width: 100%;
-    height: 287px;
-  }
-  .the-kennelsinfo-container4 {
-    align-items: center;
+  .explore-the-kennels-container4 {
     background-size: auto;
   }
-  .the-kennelsinfo-main {
-    align-items: center;
+  .explore-the-kennels-main {
     justify-content: center;
   }
-  .the-kennelsinfo-container5 {
+  .explore-the-kennels-container5 {
     width: 70%;
     align-self: flex-start;
     margin-top: 0px;
@@ -380,29 +462,42 @@
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-tripleunit);
   }
+  .explore-the-kennels-container7 {
+    width: 940px;
+    height: 276px;
+  }
+  .explore-the-kennels-image {
+    width: 103px;
+    height: 50%;
+    margin-left: 681px;
+  }
 }
 @media(max-width: 767px) {
-  .the-kennelsinfo-burger-menu {
+  .explore-the-kennels-burger-menu {
     display: flex;
   }
-  .the-kennelsinfo-kennel-top-picture {
-    margin-top: 89px;
-  }
-  .the-kennelsinfo-container3 {
-    width: 745px;
-    height: 225px;
-    margin-top: 0px;
-  }
-  .the-kennelsinfo-container5 {
+  .explore-the-kennels-container5 {
     width: 100%;
+  }
+  .explore-the-kennels-container7 {
+    width: 743px;
+    height: 241px;
+  }
+  .explore-the-kennels-image {
+    width: 107px;
+    height: 50%;
+    margin-left: 432px;
   }
 }
 @media(max-width: 479px) {
-  .the-kennelsinfo-kennel-top-picture {
-    margin-top: 90px;
+  .explore-the-kennels-container3 {
+    display: none;
   }
-  .the-kennelsinfo-container3 {
-    width: 460px;
-    height: 190px;
+  .explore-the-kennels-container7 {
+    width: 467px;
+    height: 226px;
+  }
+  .explore-the-kennels-image {
+    margin-left: 287px;
   }
 }
